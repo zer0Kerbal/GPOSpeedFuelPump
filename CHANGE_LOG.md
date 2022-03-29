@@ -1,5 +1,10 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0401: 1.7 (hab136) for KSP 1.1 PRE-RELEASE
+	+ Code updates for KSP 1.1
+	+ Changed "Pump Options" window positioning because buttons are on left side of popup now
+	+ Ensured "Pump Options" window doesn't go off-screen
+	+ Fix MM config - extra whitespace, missing "HAS"
 * 2016-0303: 1.6 (hab136) for KSP 16
 	+ Add exception handling
 	+ Fix some MM configs (particularly the Interstellar fuel switch)
