@@ -1,5 +1,11 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0604: 1.8.2 (hab136) for KSP 1.1.2
+	+ Moved all MM configs to "Patches" subdirectory.  Please do a clean install of the mod so you don't end up with duplicates.
+	+ Added default pump level config
+	+ Fixed B9PartSwitch config to work with CryoTanks
+	+ Fixed Modular Fuel Tanks config
+	+ Add FOR[GPOSpeedFuelPump] to all MM configs
 * 2016-0502: 1.8.1 (hab136) for KSP 1.1.2
 	+ Recompiled for KSP 1.1.2
 	+ Added support for ModulerFuelTanks
