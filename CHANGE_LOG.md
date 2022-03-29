@@ -1,5 +1,7 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2017-0527: 1.8.8 (hab136) for KSP 1.3.0
+	+ Recompiled for KSP 1.3.  Be sure to update Module Manager!
 * 2016-1218: 1.8.7 (hab136) for KSP 1.2.2
 	+ Recompiled for KSP 1.2.2
 * 2016-1102: 1.8.6 (hab136) for KSP 1.2.1
