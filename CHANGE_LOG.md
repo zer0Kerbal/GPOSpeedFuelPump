@@ -1,5 +1,9 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2018-0331: 1.8.12 (hab136) for KSP 1.4.1
+	+ Recompiled for KSP 1.4.2
+	+ Added action groups
+	+ [gpo action groups](https://user-images.githubusercontent.com/5103358/38164209-985069b2-3509-11e8-92b0-985bbb673e27.png)
 * 2018-0318: 1.8.11 (hab136) for KSP 1.4.1
 	+ Recompiled for KSP 1.4.1
 * 2017-1212: 1.8.10 (hab136) for KSP 1.3.1
