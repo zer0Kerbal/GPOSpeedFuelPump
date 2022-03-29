@@ -1,5 +1,7 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0630: 1.8.3 (hab136) for KSP 1.1.3
+	+ Recompiled for KSP 1.1.3
 * 2016-0604: 1.8.2 (hab136) for KSP 1.1.2
 	+ Moved all MM configs to "Patches" subdirectory.  Please do a clean install of the mod so you don't end up with duplicates.
 	+ Added default pump level config
