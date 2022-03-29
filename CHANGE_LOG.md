@@ -1,5 +1,10 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0502: 1.8.1 (hab136) for KSP 1.1.2
+	+ Recompiled for KSP 1.1.2
+	+ Added support for ModulerFuelTanks
+	+ add super-everything config (disabled by default)
+	+ change NEEDS to FOR in MM configs
 * 2016-0420: 1.8 (hab136) for KSP 1.1
 	+ Add resources for Station Science (Kibbal)
 	+ Compile against KSP 1.1 release
