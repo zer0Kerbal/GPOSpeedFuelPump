@@ -1,5 +1,7 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2019-0102: 1.8.18 (hab136) for KSP 1.6.0
+	+ Recompiled for KSP 1.6
 * 2018-1108: 1.8.17 (hab136) for KSP 1.5.1
 	+ Fixed divide-by-zero error (thanks linuxgurugamer)
 	+ Optimization of loops (thanks linuxgurugamer)
