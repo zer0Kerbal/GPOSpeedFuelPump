@@ -1,5 +1,8 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0303: 1.6 (hab136) for KSP 16
+	+ Add exception handling
+	+ Fix some MM configs (particularly the Interstellar fuel switch)
 * 2016-0124: 1.5 (hab136) for KSP 16
 	+ Respect resource lock
 	+ Don't operate on NO_FLOW resources.
