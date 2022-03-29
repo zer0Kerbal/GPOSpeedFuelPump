@@ -1,5 +1,8 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2016-0420: 1.8 (hab136) for KSP 1.1
+	+ Add resources for Station Science (Kibbal)
+	+ Compile against KSP 1.1 release
 * 2016-0401: 1.7 (hab136) for KSP 1.1 PRE-RELEASE
 	+ Code updates for KSP 1.1
 	+ Changed "Pump Options" window positioning because buttons are on left side of popup now
