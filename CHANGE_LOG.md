@@ -1,5 +1,11 @@
 # Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
 
+* 2022-0403: 1.9.0.0 (LisiasT) for KSP >= 1.3.1
+	+ Adds KSPe facilities
+		- Logs
+		- Installment checks
+	+ Certifies the thing to work down to KSP 1.3.1 
+	+ Adds (experimental) support for Simple Fuel Switch.
 * 2019-0723: 1.8.19 (hab136) for KSP 1.7.3
 	+ Recompiled for KSP 1.7.3
 * 2019-0102: 1.8.18 (hab136) for KSP 1.6.0
