@@ -1,23 +1,21 @@
-/* Goodspeed Automatic Fuel Pump (c) Copyright 2014 Gaius Goodspeed
+/*
+	This file is part of Goodspeed Automatic Fuel Pump /L Unleashed
+		© 2021 Lisias T : http://lisias.net <support@lisias.net>
+		© 2016-2019 hab136
+		© 2015 Geordiepigeonowner
+		© 2014 Gaius Goodspeed
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+	Goodspeed Automatic Fuel Pump /L Unleashed is licensed as follows:
+		* GPL 3.0 : https://www.gnu.org/licenses/gpl-3.0.txt
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
- *
- *
- * 30/04/2015 - Taken over by GPO for KSP 1.0
- * 24/01/2016 - updated for 1.0.5.  Respect resource lock, and don't operate on NO_FLOW resources.
- *
- * 06/11/2018 - Added check for resMax == 0, to avoid a divide by zero
- * 06/11/2018 - Optimized loops by replacing foreach with a faster integer based for
+	Goodspeed Automatic Fuel Pump /L Unleashed is distributed in the
+	hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+	the implied warranty of	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-http://www.gnu.org/licenses/gpl.html
+	You should have received a copy of the GNU General Public License 3.0 along
+	with Goodspeed Automatic Fuel Pump /L Unleashed.
+	If not, see <https://www.gnu.org/licenses/>.
+
 */
 
 using System;

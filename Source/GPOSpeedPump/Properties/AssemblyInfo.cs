@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GPOSpeedFuelPump")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Goodspeed Automatic Fuel Pump /L Unleashed")]
+[assembly: AssemblyDescription("Allows you to automatically transfer or balance fuel.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GPOSpeedFuelPump.Properties")]
-[assembly: AssemblyCopyright("")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany(GPOSpeedFuelPump.LegalMamboJambo.Company)]
+[assembly: AssemblyProduct(GPOSpeedFuelPump.LegalMamboJambo.Product)]
+[assembly: AssemblyCopyright(GPOSpeedFuelPump.LegalMamboJambo.Copyright)]
+[assembly: AssemblyTrademark(GPOSpeedFuelPump.LegalMamboJambo.Trademark)]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.8.17")]
-[assembly: AssemblyFileVersion("1.8.17")]
+[assembly: AssemblyVersion(GPOSpeedFuelPump.Version.Number)]
+[assembly: AssemblyFileVersion(GPOSpeedFuelPump.Version.Number)]
