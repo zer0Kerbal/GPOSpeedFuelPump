@@ -84,6 +84,7 @@ namespace GPOSpeedFuelPump
 		public const int build = <#= build #>;
 		public const string Number = "<#= major #>.<#= minor #>.<#= patch #>.<#= build #>";
 		public const string Vendor = "net.lisias.ksp";
+		public const string Namespace = "GPOSpeedPump";
 		public const string FriendlyName = "Goodspeed Automatic Fuel Pump /L";
 #if DEBUG
 		public const string Text = Number + " /L Unleashed DEBUG";

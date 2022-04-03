@@ -1,6 +1,6 @@
 ﻿/*
 	This file is part of Goodspeed Automatic Fuel Pump /L Unleashed
-		© 2021 Lisias T : http://lisias.net <support@lisias.net>
+		© 2022 Lisias T : http://lisias.net <support@lisias.net>
 		© 2016-2019 hab136
 		© 2015 Geordiepigeonowner
 		© 2014 Gaius Goodspeed
@@ -10,7 +10,7 @@
 
 	Goodspeed Automatic Fuel Pump /L Unleashed is distributed in the
 	hope that it will be useful, but WITHOUT ANY WARRANTY; without even
-	the implied warranty of	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 	You should have received a copy of the GNU General Public License 3.0 along
 	with Goodspeed Automatic Fuel Pump /L Unleashed.
