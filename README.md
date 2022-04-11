@@ -1,4 +1,4 @@
-# Goo Pumps & Oils Speed Fuel Pump /L Unleashed
+# Goo Pumps & Oils Speed Fuel Pump
 
 Allows you to automatically transfer or balance fuel.
 
@@ -7,12 +7,15 @@ Allows you to automatically transfer or balance fuel.
 
 * [Latest Release](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/releases)
 	+ [Binaries](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/tree/Archive)
-* [Source](https://github.com/net-lisias-kspu/GPOSpeedFuelPump)
+* [Source](https://github.com/net-lisias-ksp/GPOSpeedFuelPump)
 * Documentation
 	+ [Project's README](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/blob/master/README.md)
 	+ [Install Instructions](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
-
+* Official Distribution Channels:
+	+ [CurseForge](https://kerbal.curseforge.com/projects/gpospeedfuelpump-continued/files)
+	+ [SpaceDock](http://spacedock.info/mod/546/GPOSpeedFuelPump)
+	+ [GitHub](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/releases)
 
 ## Description
 
@@ -73,7 +76,7 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 	+ [Imgur](https://imgur.com/a/ilLes)
 * [Geordiepigeonowner](https://forum.kerbalspaceprogram.com/index.php?/profile/116764-geordiepigeonowner/) PREVIOUS
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/) 
-* [hab136](https://forum.kerbalspaceprogram.com/index.php?/profile/75997-hab136/) CURRENT
+* [hab136](https://forum.kerbalspaceprogram.com/index.php?/profile/75997-hab136/) PREVIOUS
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/137489-*/) 
 	+ [CurseForge](https://kerbal.curseforge.com/projects/gpospeedfuelpump-continued/files)
 	+ [SpaceDock](http://spacedock.info/mod/546/GPOSpeedFuelPump)
