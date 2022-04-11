@@ -32,3 +32,5 @@ using System.Runtime.InteropServices;
 [assembly: KSPAssembly("GPOSpeedFuelPump", GPOSpeedFuelPump.Version.major, GPOSpeedFuelPump.Version.minor)]
 [assembly: AssemblyVersion(GPOSpeedFuelPump.Version.Number)]
 [assembly: AssemblyFileVersion(GPOSpeedFuelPump.Version.Number)]
+[assembly: KSPAssemblyDependency("KSPe", 2, 4)]
+[assembly: KSPAssemblyDependency("KSPe.UI", 2, 4)]
