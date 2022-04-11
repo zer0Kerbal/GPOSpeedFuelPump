@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Goodspeed Automatic Fuel Pump /L Unleashed")]
+[assembly: AssemblyTitle("Goo Pumps & Oils' Speed Pump")]
 [assembly: AssemblyDescription("Allows you to automatically transfer or balance fuel.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany(GPOSpeedFuelPump.LegalMamboJambo.Company)]
@@ -29,5 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion(GPOSpeedFuelPump.Version.Number)]
-[assembly: AssemblyFileVersion(GPOSpeedFuelPump.Version.Number)]
+[assembly: AssemblyVersion(GPOSpeedPump.Version.Number)]
+[assembly: AssemblyFileVersion(GPOSpeedPump.Version.Number)]
+[assembly: KSPAssembly("GPOSpeedPump", GPOSpeedPump.Version.major, GPOSpeedPump.Version.minor)]
+[assembly: KSPAssemblyDependency("KSPe", 2, 4)]
+[assembly: KSPAssemblyDependency("KSPe.UI", 2, 4)]
