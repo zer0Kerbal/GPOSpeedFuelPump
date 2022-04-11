@@ -22,23 +22,19 @@ The following file layout must be present after installation:
 
 ```
 <KSP_ROOT>
-	[GameData]
-		[GPOSpeedFuelPump]
+	+ [GameData]
+		+ [GPOSpeedFuelPump]
 			...
-			CHANGE_LOG.md
-			LICENSE
-			NOTICE
-			README.md
-			GPOSpeedFuelPump.dll
-		000_KSPe.dll
-		ModuleManager.dll
+			* CHANGE_LOG.md
+			* LICENSE
+			* NOTICE
+			* README.md
+			* GPOSpeedFuelPump.dll
+		* 000_KSPe.dll
+		* ModuleManager.dll
 		...
-	[PluginData]
-		[net.lisias.ksp]
-			[GPOSpeedFuelPump]
-				...
-	KSP.log
-	PartDatabase.cfg
+	* KSP.log
+	* PartDatabase.cfg
 	...
 ```
 
