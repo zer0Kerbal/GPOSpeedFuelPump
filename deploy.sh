@@ -19,6 +19,15 @@ check() {
 		rm -f ${d}/GameData/${TARGETBINDIR}/KSPe.Light.*
 	done
 
+	if [ ! -f "./GameData/$TARGETBINDIR/KSPe.Light.GPOSP.dll" ] ; then
+		if [ ! -f "${LIB}/KSPe.Light.GPOSP.dll" ] ; then
+			echo "KSPe.Light.GPOSP not found!!! Aborting."
+			read line
+			exit -1
+		fi
+		cp "${LIB}/KSPe.Light.GPOSFP.dll" "./GameData/$TARGETBINDIR/"
+	fi
+
 	if [[ -d "./bin/Release" && -d "./bin/Debug" ]] ; then
 		echo "Conflicting Release and Debug dirs. Clean and rebuild!"
 		exit -1
