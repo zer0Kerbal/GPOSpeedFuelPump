@@ -1,4 +1,4 @@
-# Goodspeed Automatic Fuel Pump /L Unleashed :: Change Log
+# GPOSpeedFuelPump :: Change Log
 
 * 2022-0403: 1.9.0.1 (LisiasT) for KSP >= 1.3.1
 	+ Adds KSPe facilities:

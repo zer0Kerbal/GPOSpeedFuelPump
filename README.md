@@ -1,18 +1,16 @@
-# Goodspeed Automatic Fuel Pump /L Unleashed
+# Goo Pumps & Oils Speed Fuel Pump /L Unleashed
 
 Allows you to automatically transfer or balance fuel.
-
-[Unleashed](https://ksp.lisias.net/add-ons-unleashed/) fork by Lisias.
 
 
 ## In a Hurry
 
-* [Latest Release](https://github.com/net-lisias-kspu/GPOSpeedPump/releases)
-	+ [Binaries](https://github.com/net-lisias-kspu/GPOSpeedPump/tree/Archive)
-* [Source](https://github.com/net-lisias-kspu/GPOSpeedPump)
+* [Latest Release](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/releases)
+	+ [Binaries](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/tree/Archive)
+* [Source](https://github.com/net-lisias-kspu/GPOSpeedFuelPump)
 * Documentation
-	+ [Project's README](https://github.com/net-lisias-kspu/GPOSpeedPump/blob/master/README.md)
-	+ [Install Instructions](https://github.com/net-lisias-kspu/GPOSpeedPump/blob/master/INSTALL.md)
+	+ [Project's README](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/blob/master/README.md)
+	+ [Install Instructions](https://github.com/net-lisias-ksp/GPOSpeedFuelPump/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
 
 

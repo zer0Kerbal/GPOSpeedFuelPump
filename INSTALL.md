@@ -1,4 +1,4 @@
-# Goodspeed Automatic Fuel Pump /L Unleashed
+# GPOSpeedFuelPump
 
 Allows you to automatically transfer or balance fuel.
 
@@ -23,21 +23,19 @@ The following file layout must be present after installation:
 ```
 <KSP_ROOT>
 	[GameData]
-		[net.lisias.ksp]
-			[GPOSpeedPump]
-				...
-				CHANGE_LOG.md
-				LICENSE
-				NOTICE
-				README.md
-				GPOSpeedPump.dll
-				GPOSpeedPump
+		[GPOSpeedFuelPump]
+			...
+			CHANGE_LOG.md
+			LICENSE
+			NOTICE
+			README.md
+			GPOSpeedFuelPump.dll
 		000_KSPe.dll
 		ModuleManager.dll
 		...
 	[PluginData]
 		[net.lisias.ksp]
-			[GPOSpeedPump]
+			[GPOSpeedFuelPump]
 				...
 	KSP.log
 	PartDatabase.cfg
@@ -47,7 +45,5 @@ The following file layout must be present after installation:
 
 ### Dependencies
 
-* [KSP API Extensions/L](https://github.com/net-lisias-ksp/KSPAPIExtensions)
-	+ Not Included
-* [Module Manager](https://github.com/sarnet-lisias-kspu/ModuleManager)
+* [Module Manager](https://github.com/net-lisias-kspu/ModuleManager)
 	+ Not Included
