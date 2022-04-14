@@ -159,7 +159,7 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [MOD:licns]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/LICENSE "Github License"
 [MOD:local]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/GameData/GPOSpeedFuelPump/Localization/readme.md "Localization"
 [MOD:pages]: https://zer0kerbal.github.io/GPOSpeedFuelPump/ "GitHub Pages"
-[MOD:notic]: https://zer0kerbal.github.io/GPOSpeedFuelPump/Notice "Notices"
+[MOD:notic]: https://zer0kerbal.github.io/GPOSpeedFuelPump/Notices "Notices"
 [MOD:wiki]: https://zer0kerbal.github.io/GPOSpeedFuelPump/ "Wiki"
 
 <!--- mod -->
