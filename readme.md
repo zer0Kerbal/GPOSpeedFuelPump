@@ -21,11 +21,7 @@ Allows you to automatically transfer or balance fuel.
 
 ## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
-<!-- adopted with *express* permission and brought to you by *KerbSimpleCo* -->
-
-<img src="https://i.imgur.com/9insi36.png" alt="Ptero logo" width="25%" height="25%">
-
-
+<img src="https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:50%;" />
 
 ## Description
 
@@ -207,27 +203,27 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [MOD:0:download]: https://archive.org/details/Goodspeed-0.90 "Wayback Machine"
 
 [MOD:1:source]: https://archive.org/details/Goodspeed-v1.8.16 "Wayback Machine"
-[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/ "KSP Forum"  
+[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/ "KSP Forum"
 [MOD:1:download]: https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedFuelPump "KerbalStuff"
 
 [MOD:2:source]: https://github.com/henrybauer/GPOSpeedPump "GitHub"
-[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"  
-[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued "CurseForge"  
+[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued "CurseForge"
 
 <!--- license provenance-->
-[LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
+[LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
 [LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
 [LIC:0:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
 
-[LIC:1:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
+[LIC:1:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
 [LIC:1:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
 [LIC:1:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
 
-[LIC:2:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
+[LIC:2:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
 [LIC:2:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
 [LIC:2:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
 
-[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
+[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
 [LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
 [LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/license.json "GPLv3"
 
@@ -307,7 +303,7 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Taiwanese-flag-sm.png "国语"
 
 [gaius]: https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/ "Gaius"
-[geordiepigeonowner]:https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/ "Geordiepigeonowner"  
+[geordiepigeonowner]:https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/ "Geordiepigeonowner"
 [hab136]: https://forum.kerbalspaceprogram.com/index.php?/profile/75997-*/ "hab136"
 [lisias]: https://forum.kerbalspaceprogram.com/index.php?/profile/187168-*/ "Lisias"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
