@@ -18,7 +18,7 @@ repository:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/
   
   # A comma-separated list of topics to set on the repository
-  topics: goodspeed,gpo,fuel,speed,pump,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods
+  topics: goodspeed,gpo,fuel,speed,pump,kerbal,kerbalspaceprogram,ksp,ksp-mods,kerbal-space,kerbal-space-program,kerbal-mods
   
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
@@ -53,8 +53,6 @@ repository:
 
   # Either `true` to enable automatic deletion of branches on merge, or `false` to disable
   delete_branch_on_merge: true
-
-  has_discussions: true
 
 # Labels: define labels for Issues and Pull Requests
 labels:
@@ -264,11 +262,11 @@ milestones:
   - title: Localization - Master
     description: progress toward total localization
     state: open
-    
+
   - title: Localization - Code
     description: progress toward CODE localization (only for add-ons - plugins - etc)
     state: open
-    
+
   - title: Localization - English (United States) <en-us.cfg>
     description: progress toward English (United States) <en-us.cfg> localization
     state: open
