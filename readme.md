@@ -147,7 +147,6 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
 
 Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 
-
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/Attribution.md "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/changelog.md  "Changelog"
