@@ -21,7 +21,7 @@ Allows you to automatically transfer or balance fuel.
 
 ## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
-<img src="https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:50%;" />
+<img src="https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:25%;" />
 
 ## Description
 
