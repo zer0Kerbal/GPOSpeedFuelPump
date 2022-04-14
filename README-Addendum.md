@@ -77,6 +77,7 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 	+ [Wayback Machine](https://archive.org/details/Goodspeed-0.90)
 * [Geordiepigeonowner](https://forum.kerbalspaceprogram.com/index.php?/profile/116764-geordiepigeonowner/) PREVIOUS
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/)
+	+ [Wayback Machine](https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedFuelPump)
 * [hab136](https://forum.kerbalspaceprogram.com/index.php?/profile/75997-hab136/) PREVIOUS
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/137489-*/)
 	+ [CurseForge](https://kerbal.curseforge.com/projects/gpospeedfuelpump-continued/files)
