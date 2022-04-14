@@ -46,7 +46,7 @@ The fourth pic shows the "Pump Options" window that allows you to turn off the p
 
 ## Installation
 
-Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
+Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and in the distribution file.
 
 ## License:
 
