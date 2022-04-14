@@ -74,6 +74,7 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 * [Gaius](https://forum.kerbalspaceprogram.com/index.php?/profile/66495-gaius/) ROOT
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/60992-*/)
 	+ [Imgur](https://imgur.com/a/ilLes)
+	+ [Wayback Machine](https://archive.org/details/Goodspeed-0.90)
 * [Geordiepigeonowner](https://forum.kerbalspaceprogram.com/index.php?/profile/116764-geordiepigeonowner/) PREVIOUS
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/) 
 * [hab136](https://forum.kerbalspaceprogram.com/index.php?/profile/75997-hab136/) PREVIOUS
