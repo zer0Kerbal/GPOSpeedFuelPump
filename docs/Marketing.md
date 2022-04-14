@@ -12,15 +12,15 @@ created: 13 Apr 2022
 updated: 
 -->
 
-# GPOSpeedFuelPump (GPO)
+# GPOSpeedFuelPump
 
 [Home](./index.md)
 
 ## 1
 
-![Tanks](./Marketing/PR-01.png)
-
 Tanks at higher levels empty first, tanks with the same level maintain left/right balance
+
+![Tanks](./Marketing/PR-01.png)
 
 [top](#GPOSpeedFuelPump)
 
@@ -28,18 +28,30 @@ Tanks at higher levels empty first, tanks with the same level maintain left/righ
 
 ## 2
 
+This is just demonstrating that the pump options can be set in the VAB or SPH and saved with the craft.
+
 ![Demonstrating](./Marketing/PR-02.png)
 
-This is just demonstrating that the pump options can be set in the VAB or SPH and saved with the craft.
+[top](#GPOSpeedFuelPump)
+
+---
 
 ## 3
 
+Just showing tanks maintaining balance in-flight.
+
 ![Flight](./Marketing/PR-03.png)
 
-Just showing tanks maintaining balance in-flight.
+[top](#GPOSpeedFuelPump)
+
+---
 
 ## 4
 
+The Forge orbital construction space station, here demoing the Pump Options window on one of its tanks
+
 ![The Forge](./Marketing/PR-04.png)
 
-The Forge orbital construction space station, here demoing the Pump Options window on one of its tanks
+[top](#GPOSpeedFuelPump)
+
+---
