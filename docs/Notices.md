@@ -8,13 +8,13 @@ tags: notice,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 
 <!--
 Notices.md v1.0.0.0
-Goo Pumps & Oils' Speed Fuel Pump (GPO)
+GPOSpeedFuelPump (GPO)
 created: 13 Apr 2022
 updated: 
 
 based upon work by LisiasT -->
 
-# Goo Pumps & Oils' Speed Fuel Pump (GPO)
+# GPOSpeedFuelPump (GPO)
 
 [Home](./index.html)
 
