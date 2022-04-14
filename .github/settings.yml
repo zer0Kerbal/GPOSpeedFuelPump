@@ -15,7 +15,7 @@ repository:
   description: This addon allows you to automatically transfer or balance fuel and is for Kerbal Space Program.
 
   # A URL with more information about the repository
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/
 
   # A comma-separated list of topics to set on the repository
   topics: goodspeed,gpo,speed,pump,kerbal,kerbalspaceprogram,ksp,ksp-mods,kerbal-space,addon,kerbal-mods
