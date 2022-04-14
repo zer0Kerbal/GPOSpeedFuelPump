@@ -15,30 +15,47 @@ updated: 04 Apr 2022 -->
 
 # GPOSpeedFuelPump (GPO)
 
-Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then **Goo Pumps & Oils** has the tool for you!
+Allows you to automatically transfer or balance fuel.
 
 
 
-## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius].  
+## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
 <!-- adopted with *express* permission and brought to you by *KerbSimpleCo* -->
 
-<img src="https://i.imgur.com/9insi36.png" alt="Ptero logo" width="25%" height="25%"> <img src="https://i.imgur.com/amouo8l.png" alt="Texture and Logo work by hab136" width="50%" height="50%">
+<img src="https://i.imgur.com/9insi36.png" alt="Ptero logo" width="25%" height="25%">
 
 
 
-<details>
-  <summary><b>Preamble by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/102159-sage-sagan/">@Gaius</a></b></summary>
-  <p>I love Helldiver's KSO, but it got me thinking about the WEKA and the idea of a REALLY small lifting body shuttle(1.25m scale) for crew return and emergency returns from orbit. So after a few abortive attempts at Blender which resulted in the kind of design that should be drowned at birth, I decided to draw on a napkin at work(aren't those always the best designs?).</p>
-  <p>The idea ~would be~ [was] to keep a very low part count, so ideally it will consist of only 6-8 parts i.e. Fuselage,right and left winglets ,docking port,two oms engines. The OMS engines would be R.C.S fueled so they can share the same internal R.C.S. tanks as the thrusters. The shuttle will seat 2 kerbals in a tandem configuration with hopefully RPM displays(2), as a place holder the MK2 cockpit IVA could be used as config is similar.<p>
-  <p>The shuttle, when fueled would weigh in at around 1.8 tonnes and due to it's size will fit in a 2.5m fairing which makes it much easier to launch especially for FAR uses. I picture it as being slightly wider that a MK2 cockpit. This is not shown on the sketch but the docking collar will fit on the rear. The compact size means it should fit in a 2.5m cargo bay for carrying on larger ships etc.</p>
-</details>
+## Description
+
+Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then **Goo Pumps & Oils** has the tool for you!
+
+The **Goo Pumps & Oils'** *Speed Fuel Pump*, once installed in your fuel tanks, allows you to set up a "pump level" for each tank, either as a "tweakable" while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don't normally flow that way (e.g. monopropellant and xenon gas), and many other uses!
+
+Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on "Auto Pump" and/or "Balance". "Auto Pump" will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The "Balance" function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and "Balance" on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.
+
+### Pictures, or it didn't happened!
+
+The first pic shows a fuel station that automatically refuels any ship that docks with it. In this setup, the top two tanks remain left/right balanced while draining first, then the next two down, and so on, with the two on the bottom draining last. Why would you want to do this? Because... reasons.
+
+![HERO-01][](https://i.imgur.com/2pChN3Q.png)
+
+The second pic just shows that the pump settings appear in the assembly building as "tweakables" as well as in-flight. These settings are saved with your craft.
+
+![HERO-01](https://i.imgur.com/JnfmO7C.png)
+
+The third pic just shows the pumps keeping three tanks balanced in-flight.
+
+![HERO-01](https://i.imgur.com/Bxmxd6d.png)
+
+The fourth pic shows the "Pump Options" window that allows you to turn off the pumping of some resources while leaving it enabled for others.
+
+![HERO-01](https://i.imgur.com/G1kAfqy.png)
 
 ### Help Wanted
 
-> * Would love someone to convert from FireSpitter to Stock and/or KSPWheel  
-> * Variant Textures and code to make it work always welcome!
-> * Model updates to Unity 2019
+> * Compatibility patches are always welcome  
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
 
 ---
@@ -106,8 +123,6 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 * [Modular Fuel Tanks][mft]
 * [SimpleFuelSwitch][sfs]
 
----
-
 <div style="border:0.5px solid #BADA55; background-color: #white; color: #FF0000; text-align:center">
 <p><b>*red box below is a link to forum post on how to get support*</p>  
 <a href = "https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
@@ -134,7 +149,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 
 #### Previous (2) - Author: [`hab136`][hab136]
 
-> Forum: [Thread][MOD:2:thread] - Download: [Dropbox][MOD:2:download] - Source: [Dropbox][MOD:2:source]  
+> Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:download] - Source: [GitHub][MOD:2:source]  
+> [SpaceDock](http://spacedock.info/mod/546/GPOSpeedFuelPump)
 > License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
 
 #### Previous (1) - Author: [`Geordiepigeonowner`][geordiepigeonowner]
@@ -142,10 +158,11 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 > Forum: [Thread][MOD:1:thread] - Download: [KerbalStuff][MOD:1:download] - Source: [Wayback Machine][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
 
-#### Original (0) - Author: [`Gaius`][gaius]
+#### Original (ROOT) (0) - Author: [`Gaius`][gaius]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:download] - Source: [Dropbox][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
+> [Imgur](https://imgur.com/a/ilLes)
 
 This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:log].
 
@@ -163,7 +180,6 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
   * You don't mix your work with GPL incompatible works.
 
 Please note the copyrights and trademarks in [NOTICE](MOD:notic).
-
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/Attribution.md "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/changelog.md  "Changelog"
@@ -196,7 +212,7 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 
 [MOD:2:source]: https://github.com/henrybauer/GPOSpeedPump "GitHub"
 [MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"  
-[MOD:2:download]: http://spacedock.info/mod/546 "SpaceDock"  
+[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued "CurseForge"  
 
 <!--- license provenance-->
 [LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
@@ -300,3 +316,4 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [^1]: this isn't a mod. ;P
 [^2]: ***may*** work on other versions (YMMV)
 [^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
+
