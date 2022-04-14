@@ -81,10 +81,11 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
+* [Module Manager /L][mm] [^3]
 
 ### Supports
 
-* [On Demand Fuel Cells (ODFC)][ODFC] [^3]  
+* [On Demand Fuel Cells (ODFC)][ODFC]  
 * [Firespitter][fs] for fully functioning wheels. may invoke bouts of dizziness.
 * [NEAR-FAR][far]
 * [Restock][restock]
