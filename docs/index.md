@@ -5,4 +5,5 @@
 
 ## Documents
 - [404](404.md)
-- [Notice](Notice.md)
+- [LegalMumboJumbo](LegalMumboJumbo.md)
+- [Notices](Notices.md)
