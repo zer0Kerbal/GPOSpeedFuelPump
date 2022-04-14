@@ -95,8 +95,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
 * either [Module Manager][mm] [^3]
-  * [Module Manager]
-  or
+  * [Module Manager]  
+  or  
   * [Module Manager /L][mml] [^3]
   * with [KSPAPIExtensions][kspe]
 
