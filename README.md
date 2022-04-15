@@ -7,15 +7,20 @@ Allows you to automatically transfer or balance fuel.
 
 * [Latest Release](https://github.com/net-lisias-ksp/GPOSpeedPump/releases)
 	+ [Binaries](https://github.com/net-lisias-ksp/GPOSpeedPump/tree/Archive)
-* [Source](https://github.com/net-lisias-ksp/GPOSpeedPump)
+	+ [Source](https://github.com/net-lisias-ksp/GPOSpeedPump)
 * Documentation
 	+ [Project's README](https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/README.md)
 	+ [Install Instructions](https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
+* Support
+	+ [Discussions](https://github.com/net-lisias-ksp/GPOSpeedPump/discussions/categories/support)
+	+ [Issue Track](https://github.com/net-lisias-ksp/GPOSpeedPump/issues)
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/)
 * Official Distribution Channels:
 	+ [CurseForge](https://kerbal.curseforge.com/projects/gpospeedfuelpump-continued/files)
 	+ [SpaceDock](http://spacedock.info/mod/546/GPOSpeedPump)
 	+ [GitHub](https://github.com/net-lisias-ksp/GPOSpeedPump/releases)
+
 
 ## Description
 
@@ -47,6 +52,7 @@ The fourth pic shows the "Pump Options" window that allows you to turn off the p
 ## Installation
 
 Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
+
 
 ## License:
 

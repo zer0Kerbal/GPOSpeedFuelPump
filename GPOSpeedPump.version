@@ -1,14 +1,14 @@
 {
-	"NAME"		: "Goodspeed Automatic Pump /L Unleashed",
-	"URL"		: "https://raw.githubusercontent.com/net-lisias-kspu/GPOSpeedPump/master/GPOSpeedPump.version",
-	"DOWNLOAD"	: "https://github.com/net-lisias-kspu/GPOSpeedPump/releases",
-	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-kspu/GPOSpeedPump/master/CHANGE_LOG.md",
-	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-kspu/GPOSpeedPump/master/CHANGES.md",
+	"NAME"		: "Goo Pumps & Oils' Speed Pump",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/master/GPOSpeedPump.version",
+	"DOWNLOAD"	: "https://github.com/net-lisias-ksp/GPOSpeedPump/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/master/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/master/CHANGES.md",
 	"VERSION":{
 		"MAJOR":1,
 		"MINOR":9,
 		"PATCH":0,
-		"BUILD":1
+		"BUILD":3
 		},
 	"KSP_VERSION_MIN":{
 		"MAJOR":1,
