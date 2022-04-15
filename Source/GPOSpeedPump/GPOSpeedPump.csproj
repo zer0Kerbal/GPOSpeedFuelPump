@@ -38,8 +38,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="KSPe.Light.GPOSP">
-      <HintPath>..\..\..\..\..\..\LIB\plugins\KSPe.Light.GPOSFP.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\LIB\plugins\KSPe.Light.GPOSP.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
