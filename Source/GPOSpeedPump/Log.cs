@@ -21,7 +21,7 @@ using UnityEngine;
 
 using Logger = KSPe.Util.Log.Logger;
 
-namespace GPOSpeedFuelPump
+namespace GPOSpeedPump
 {
     public static class Log
     {

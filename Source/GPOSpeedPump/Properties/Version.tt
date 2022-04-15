@@ -74,7 +74,7 @@
 #>
 
 // Automatically generated code. Any changes will be lost!
-namespace GPOSpeedFuelPump
+namespace <#= PROJECT_NAME #>
 {
 	public static class Version
 	{
@@ -83,13 +83,12 @@ namespace GPOSpeedFuelPump
 		public const int patch = <#= patch #>;
 		public const int build = <#= build #>;
 		public const string Number = "<#= major #>.<#= minor #>.<#= patch #>.<#= build #>";
-		public const string Vendor = "net.lisias.ksp";
 		public const string Namespace = "GPOSpeedPump";
-		public const string FriendlyName = "Goodspeed Automatic Fuel Pump /L";
+		public const string FriendlyName = "Goodspeed Automatic Pump /L";
 #if DEBUG
-		public const string Text = Number + " /L Unleashed DEBUG";
+		public const string Text = Number + " /L DEBUG";
 #else
-		public const string Text = Number + " /L Unleashed";
+		public const string Text = Number + " /L";
 #endif
 	}
 }

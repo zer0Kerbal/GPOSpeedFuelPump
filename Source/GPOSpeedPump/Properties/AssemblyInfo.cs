@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Goo Pumps & Oils' Speed Pump")]
 [assembly: AssemblyDescription("Allows you to automatically transfer or balance fuel.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(GPOSpeedFuelPump.LegalMamboJambo.Company)]
-[assembly: AssemblyProduct(GPOSpeedFuelPump.LegalMamboJambo.Product)]
-[assembly: AssemblyCopyright(GPOSpeedFuelPump.LegalMamboJambo.Copyright)]
-[assembly: AssemblyTrademark(GPOSpeedFuelPump.LegalMamboJambo.Trademark)]
+[assembly: AssemblyCompany(GPOSpeedPump.LegalMamboJambo.Company)]
+[assembly: AssemblyProduct(GPOSpeedPump.LegalMamboJambo.Product)]
+[assembly: AssemblyCopyright(GPOSpeedPump.LegalMamboJambo.Copyright)]
+[assembly: AssemblyTrademark(GPOSpeedPump.LegalMamboJambo.Trademark)]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

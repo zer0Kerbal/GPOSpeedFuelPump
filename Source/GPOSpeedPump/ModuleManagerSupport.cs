@@ -17,7 +17,7 @@
 */
 using System.Collections.Generic;
 
-namespace GPOSpeedFuelPump
+namespace GPOSpeedPump
 {
 	public static class ModuleManagerSupport
 	{

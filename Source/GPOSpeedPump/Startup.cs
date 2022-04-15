@@ -17,7 +17,7 @@
 */
 using UnityEngine;
 
-namespace GPOSpeedFuelPump
+namespace GPOSpeedPump
 {
 	[KSPAddon(KSPAddon.Startup.Instantly, true)]
 	internal class Startup:MonoBehaviour

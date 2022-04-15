@@ -16,7 +16,7 @@
 	with Goo Pumps & Oils' Speed Pump. If not, see <https://www.gnu.org/licenses/>.
 */
 using System;
-namespace GPOSpeedFuelPump
+namespace GPOSpeedPump
 {
 	public static class LegalMamboJambo
 	{
