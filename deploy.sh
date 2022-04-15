@@ -25,7 +25,7 @@ check() {
 			read line
 			exit -1
 		fi
-		cp "${LIB}/KSPe.Light.GPOSFP.dll" "./GameData/$TARGETBINDIR/"
+		cp "${LIB}/KSPe.Light.GPOSP.dll" "./GameData/$TARGETBINDIR/"
 	fi
 
 	if [[ -d "./bin/Release" && -d "./bin/Debug" ]] ; then
