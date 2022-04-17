@@ -23,7 +23,7 @@ namespace GPOSpeedPump
 	{
 		public static IEnumerable<string> ModuleManagerAddToModList()
 		{
-			string[] r = { typeof(Version).Namespace };
+			string[] r = { typeof(Version).Namespace, "GPOSpeedFuelPump" };
 			return r;
 		}
 	}
