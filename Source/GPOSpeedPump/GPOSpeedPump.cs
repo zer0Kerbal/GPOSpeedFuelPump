@@ -137,11 +137,8 @@ namespace GPOSpeedPump
 
 			foreach (PartResource pr in part.Resources) {
 				string cfgValue = cn.GetValue (pr.resourceName + "Flags");
-				if (!String.IsNullOrEmpty (cfgValue)) {
-					int flags;
-					if (Int32.TryParse (cfgValue, out flags))
-						SetResourceFlags (pr.resourceName, flags);
-				}
+				if (!String.IsNullOrEmpty(cfgValue) && (Int32.TryParse(cfgValue, out int flags)))
+					SetResourceFlags(pr.resourceName, flags);
 			}
 		}
 
@@ -150,14 +147,10 @@ namespace GPOSpeedPump
 			if (_resourceFlags == null)
 				return;
 
-			foreach (var rf in _resourceFlags) {
-				if (rf.Value != -1) {
-					string flagName = rf.Key + "Flags";
-					if (cn.HasValue (flagName))
-						cn.SetValue (flagName, (rf.Value & 3).ToString ());
-					else
-						cn.AddValue (flagName, (rf.Value & 3).ToString ());
-				}
+			foreach (KeyValuePair<string, int> rf in _resourceFlags) if (rf.Value != -1)
+			{
+				string flagName = rf.Key + "Flags";
+				cn.SetValue(flagName, (rf.Value & 3).ToString(), true);
 			}
 		}
 
@@ -185,17 +178,20 @@ namespace GPOSpeedPump
 			GUIStyle style = new GUIStyle (GUI.skin.button) { padding = new RectOffset (8, 8, 4, 4) };
 
 			GUILayout.BeginVertical ();
-			GUILayout.Label (part.partInfo.title);
-            //foreach (PartResource pr in part.Resources) {
-            for (int i = part.Resources.Count - 1; i >= 0; i--)
-            {
-                PartResource pr = part.Resources[i];
+			{ 
+				GUILayout.Label (part.partInfo.title);
 
-                SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, "Pump " + pr.resourceName) ? 1 : 0));
-				SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, "Balance " + pr.resourceName) ? 2 : 0));
-			}
-			if (GUILayout.Button ("Close", style, GUILayout.ExpandWidth (true))) {
-				_winShow = false;
+				for (int i = part.Resources.Count - 1; i >= 0; --i)
+				{
+					PartResource pr = part.Resources[i];
+
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, "Pump " + pr.resourceName) ? 1 : 0));
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, "Balance " + pr.resourceName) ? 2 : 0));
+				}
+
+				if (GUILayout.Button ("Close", style, GUILayout.ExpandWidth (true))) {
+					_winShow = false;
+				}
 			}
 			GUILayout.EndVertical ();
 
@@ -233,39 +229,35 @@ namespace GPOSpeedPump
 
 		private void PumpOut (float secs)
 		{
-            //foreach (PartResource pumpRes in part.Resources) {
-            for (int i = part.Resources.Count - 1; i >= 0; i--)
-            {
-                PartResource pumpRes = part.Resources[i];
+			for (int i = part.Resources.Count - 1; i >= 0; --i)
+			{
+				PartResource pumpRes = part.Resources[i];
 
-                if (pumpRes.flowState) { // don't operate if resource is locked
-					if (GetResourceFlags (pumpRes.resourceName, 1) == 1) {
-                        //foreach (Part shipPart in vessel.Parts) {
-                        for (int s = vessel.Parts.Count - 1; s >= 0; s--)
-                        {
-                            Part shipPart = vessel.Parts[s];
+				if (pumpRes.flowState) // don't operate if resource is locked
+				{ 
+					if (GetResourceFlags (pumpRes.resourceName, 1) == 1) for (int s = vessel.Parts.Count - 1; s >= 0; --s)
+					{
+						Part shipPart = vessel.Parts[s];
+						float shipPartLevel = 0f;
 
-                            float shipPartLevel = 0f;
-							if (shipPart.Modules.Contains ("GPOSpeedPump")) {
-								var gpoSpeedPump = shipPart.Modules ["GPOSpeedPump"] as GPOSpeedPump;
-								if (gpoSpeedPump != null)
-									shipPartLevel = gpoSpeedPump._pumpLevel;
-							}
-							if (shipPartLevel < _pumpLevel) {
-								//foreach (PartResource shipPartRes in shipPart.Resources) {
-                                for (int pr = shipPart.Resources.Count - 1; pr >= 0; pr--)
-                                {
-                                    PartResource shipPartRes = shipPart.Resources[pr];
+						if (shipPart.Modules.Contains<GPOSpeedPump>())
+						{
+							GPOSpeedPump gpoSpeedPump = shipPart.Modules[typeof(GPOSpeedPump).Name] as GPOSpeedPump;
+							if (gpoSpeedPump != null) shipPartLevel = gpoSpeedPump._pumpLevel;
+						}
 
-                                    if (shipPartRes.resourceName == pumpRes.resourceName) {
-										if (shipPartRes.flowState) { // don't operate if resource is locked
-											double give = Math.Min (Math.Min (shipPartRes.maxAmount - shipPartRes.amount, pumpRes.amount), Math.Min (pumpRes.maxAmount, shipPartRes.maxAmount) / 10.0 * secs);
-											if (give > 0.0) { // Sanity check.  Apparently some other mods happily set amount or maxAmount to... interesting values...
-												pumpRes.amount -= give;
-												shipPartRes.amount += give;
-											}
-										}
-									}
+						if (shipPartLevel < _pumpLevel) for (int pr = shipPart.Resources.Count - 1; pr >= 0; --pr)
+						{
+							PartResource shipPartRes = shipPart.Resources[pr];
+							if (shipPartRes.resourceName == pumpRes.resourceName
+								&& shipPartRes.flowState // don't operate if resource is locked
+								)
+							{
+								double give = Math.Min (Math.Min (shipPartRes.maxAmount - shipPartRes.amount, pumpRes.amount), Math.Min (pumpRes.maxAmount, shipPartRes.maxAmount) / 10.0 * secs);
+								if (give > 0.0) // Sanity check.  Apparently some other mods happily set amount or maxAmount to... interesting values...
+								{
+									pumpRes.amount -= give;
+									shipPartRes.amount += give;
 								}
 							}
 						}
@@ -276,62 +268,58 @@ namespace GPOSpeedPump
 
 		private void Balance ()
 		{
-            //foreach (PartResource pumpRes in part.Resources)
-            for (int i = part.Resources.Count - 1; i >= 0; i--)
-            {
-                PartResource pumpRes = part.Resources[i];
+			for (int i = part.Resources.Count - 1; i >= 0; --i)
+			{
+				PartResource pumpRes = part.Resources[i];
 
 				if (pumpRes.flowState) { // don't operate if resource is locked
 					if (GetResourceFlags (pumpRes.resourceName, 2) == 2) {
 						double resAmt = 0f;
 						double resMax = 0f;
 
-                        //foreach (Part shipPart in vessel.Parts)
-                        for (int s = vessel.Parts.Count - 1; s >= 0; s--)
-                        {
-                            Part shipPart = vessel.Parts[s];
+						for (int j = vessel.Parts.Count - 1; j >= 0; --j)
+						{
+							Part shipPart = vessel.Parts[j];
 
-                            if (shipPart.Modules.Contains ("GPOSpeedPump")
-							    && ((GPOSpeedPump)shipPart.Modules ["GPOSpeedPump"])._autoBalance
-							    && Math.Abs (((GPOSpeedPump)shipPart.Modules ["GPOSpeedPump"])._pumpLevel - _pumpLevel) < Tolerance) {
-								foreach (PartResource shipPartRes in shipPart.Resources) {
-                                    if (shipPartRes.resourceName == pumpRes.resourceName) {
-										if (shipPartRes.flowState) { // don't operate if resource is locked
+							if (shipPart.Modules.Contains<GPOSpeedPump>())
+							{
+								GPOSpeedPump gpoSpeedPump = shipPart.Modules[typeof(GPOSpeedPump).Name] as GPOSpeedPump;
+								if ( gpoSpeedPump._autoBalance && ( Math.Abs ((gpoSpeedPump)._pumpLevel - _pumpLevel) < Tolerance ) )
+									for (int k = shipPart.Resources.Count; k >= 0; --k)
+									{
+										PartResource shipPartRes = shipPart.Resources[k];
+										if (
+											shipPartRes.resourceName == pumpRes.resourceName
+											&& shipPartRes.flowState // don't operate if resource is locked
+											)
+										{
 											resAmt += shipPartRes.amount;
 											resMax += shipPartRes.maxAmount;
 										}
 									}
+							}
+						}
+
+						if (resMax > 0) // Dont do anything if the resMax is zero
+						{
+							for (int j = vessel.Parts.Count - 1; j >= 0; --j)
+							{
+								Part shipPart = vessel.Parts[j];
+								if (shipPart.Modules.Contains<GPOSpeedPump>())
+								{
+									GPOSpeedPump gpoSpeedPump = shipPart.Modules[typeof(GPOSpeedPump).Name] as GPOSpeedPump;
+									if (gpoSpeedPump._autoBalance && Math.Abs(gpoSpeedPump._pumpLevel - _pumpLevel) < Tolerance)
+										for (int i1 = shipPart.Resources.Count - 1; i1 >= 0; --i1)
+										{
+											PartResource shipPartRes = shipPart.Resources[i1];
+											if (shipPartRes.resourceName == pumpRes.resourceName
+												&& shipPartRes.flowState // don't operate if resource is locked
+												)
+												shipPartRes.amount = shipPartRes.maxAmount * resAmt / resMax;
+										}
 								}
 							}
 						}
-                        if (resMax > 0) // Dont do anything if the resMax is zero
-                        {
-                            //foreach (Part shipPart in vessel.Parts)
-                            for (int s = vessel.Parts.Count - 1; s >= 0; s--)
-                            {
-                                Part shipPart = vessel.Parts[s];
-
-                                if (shipPart.Modules.Contains("GPOSpeedPump")
-                                    && ((GPOSpeedPump)shipPart.Modules["GPOSpeedPump"])._autoBalance
-                                    && Math.Abs(((GPOSpeedPump)shipPart.Modules["GPOSpeedPump"])._pumpLevel - _pumpLevel) < Tolerance)
-                                {
-                                    //foreach (PartResource shipPartRes in shipPart.Resources)
-                                    for (int i1 = shipPart.Resources.Count - 1; i1 >= 0; i1--)
-                                    {
-                                        PartResource shipPartRes = shipPart.Resources[i1];
-
-                                        if (shipPartRes.resourceName == pumpRes.resourceName)
-                                        {
-                                            if (shipPartRes.flowState)
-                                            { // don't operate if resource is locked
-                                                shipPartRes.amount = shipPartRes.maxAmount * resAmt / resMax;
-                                            }
-                                        }
-
-                                    }
-                                }
-                            }
-                        }
 					}
 				}
 			}
