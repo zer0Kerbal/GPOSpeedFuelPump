@@ -13,7 +13,7 @@ updated: 04 Apr 2022 -->
 
 
 
-# GPOSpeedFuelPump (GPO)
+# GPO Speed Pump (GPO)
 
 Allows you to automatically transfer or balance fuel.
 
@@ -27,7 +27,7 @@ Allows you to automatically transfer or balance fuel.
 
 Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then **Goo Pumps & Oils** has the tool for you!
 
-The **Goo Pumps & Oils'** *Speed Fuel Pump*, once installed in your fuel tanks, allows you to set up a "pump level" for each tank, either as a "tweakable" while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don't normally flow that way (e.g. monopropellant and xenon gas), and many other uses!
+The **Goo Pumps & Oils'** *Speed Pump*, once installed in your fuel tanks, allows you to set up a "pump level" for each tank, either as a "tweakable" while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don't normally flow that way (e.g. monopropellant and xenon gas), and many other uses!
 
 Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on "Auto Pump" and/or "Balance". "Auto Pump" will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The "Balance" function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and "Balance" on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.
 
