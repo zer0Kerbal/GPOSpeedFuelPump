@@ -28,8 +28,8 @@ namespace GPOSpeedPump
 
 			try
 			{
-				//KSPe.Util.Compatibility.Check<Startup>(typeof(Version), typeof(Configuration));
-				KSPe.Util.Installation.Check<Startup>(typeof(Version));
+				KSPe.Util.Compatibility.Check<Startup>();
+				KSPe.Util.Installation.Check<Startup>();
 			}
 			catch (KSPe.Util.InstallmentException e)
 			{
