@@ -285,7 +285,7 @@ namespace GPOSpeedPump
 							{
 								GPOSpeedPump gpoSpeedPump = shipPart.Modules[typeof(GPOSpeedPump).Name] as GPOSpeedPump;
 								if ( gpoSpeedPump._autoBalance && ( Math.Abs ((gpoSpeedPump)._pumpLevel - _pumpLevel) < Tolerance ) )
-									for (int k = shipPart.Resources.Count; k >= 0; --k)
+									for (int k = shipPart.Resources.Count - 1; k >= 0; --k)
 									{
 										PartResource shipPartRes = shipPart.Resources[k];
 										if (
