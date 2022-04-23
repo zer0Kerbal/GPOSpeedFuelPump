@@ -126,7 +126,7 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (1) - [`zer0Kerbal`][zer0Kerbal]
+#### Current (1) - [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal]
 
 > Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
@@ -150,7 +150,7 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 #### Original (ROOT) (0) - Author: [`Gaius`][gaius]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:download] - Source: [Dropbox][MOD:0:source]  
-> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
+> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]  
 > [Imgur](https://imgur.com/a/ilLes)
 
 This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:log].
@@ -168,7 +168,7 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
     * Please note that upgrading the license to any future license version  **IS NOT ALLOWED** for this work, as the author **DID NOT** added the "or (at your option) any later version" on the license
   * You don't mix your work with GPL incompatible works.
 
-Please note the copyrights and trademarks in [NOTICE](MOD:notic).
+Please note the copyrights and trademarks in [NOTICE](MOD:notice).
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Attribution.md "Attribution"
 
