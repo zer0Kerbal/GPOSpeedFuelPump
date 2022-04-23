@@ -165,13 +165,12 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
   * You don't impersonate the authors, neither redistribute a derivative that could be misrepresented as theirs.
   * You credit the author and republish the copyright notices on your works where the code is used.
   * You relicense (and fully comply) your works using GPL 3.0
-    * Please note that upgrading the license to any future license version  **IS NOT ALLOWED** for this work, as the author **DID NOT** added the "or (at your option) any later version" on the license
+    * Please note that upgrading the license to any future license version  **IS NOT ALLOWED** for this work, as the author **DID NOT** add the "or (at your option) any later version" on the license
   * You don't mix your work with GPL incompatible works.
 
 Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Attribution.md "Attribution"
-
 MOD:notice]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Notices.md "Attribution"
 
 [MOD:chlog]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md  "Changelog"
