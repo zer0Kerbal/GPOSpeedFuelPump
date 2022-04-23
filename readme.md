@@ -76,21 +76,21 @@ The fourth pic shows the "Pump Options" window that allows you to turn off the p
 ### Installation Directions
 
 ***Use***
-  CurseForge/OverWolf App (currently does not install dependencies) [^1]  
+  CurseForge/OverWolf App (currently does not install dependencies)
 
   <a href="https://download.curseforge.com/">
     <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
 </a>
 
-or [![CKAN][CKAN:img]][CKAN:url] [^1]  
+or [![CKAN][CKAN:img]][CKAN:url]
 
 ### Dependencies
 
-* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
-* either [Module Manager][mm] [^3]
-  * [Module Manager]  
+* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
+* either
+  * [Module Manager][mm]
   or  
-  * [Module Manager /L][mml] [^3]
+  * [Module Manager /L][mml]
   * with [KSPAPIExtensions][kspe]
 
 ### Supports
