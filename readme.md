@@ -87,9 +87,10 @@ or [![CKAN][CKAN:img]][CKAN:url]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
+
 * either
   * [Module Manager][mm]
-  or  
+* or  
   * [Module Manager /L][mml]
   * with [KSPAPIExtensions][kspe]
 
