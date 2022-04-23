@@ -12,7 +12,6 @@ updated: 04 Apr 2022 -->
 [![GitHub Pages][MOD:pages:shd]][MOD:pages]
 
 
-
 # Goo Pumps & Oils' Speed Pump(GPO)
 
 Allows you to automatically transfer or balance fuel.
@@ -185,6 +184,8 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json
 [CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/code.json
+
+[MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "Github Pages"
 
 <!--- mod provenance -->
 [MOD:0:source]: https://archive.org/details/Goodspeed-0.90 "Wayback Machine"
