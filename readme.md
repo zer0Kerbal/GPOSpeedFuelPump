@@ -1,19 +1,19 @@
 <!-- readme.md v1.6.6.2
-GPOSpeedFuelPump (GPO)
+GPOSpeedPump (GPO)
 created: 01 Oct 2019
 updated: 04 Apr 2022 -->
 
 <!--this file: CC BY-ND 4.0 unported by zer0Kerbal -->
 
-[![GPOSpeedFuelPump (GPO)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
+[![GPOSpeedPump (GPO)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![CKAN][CKAN:shd]][CKAN:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url]  
-![Code][CODE:shd] ![KSP-AVC][AVC:shd] ![Validate AVC .version files][AVCVLD:shd]
+![Code][CODE:shd]
 
 [![GitHub Pages][MOD:pages:shd]][MOD:pages]
 
 
 
-# GPO Speed Pump (GPO)
+# Goo Pumps & Oils' Speed Pump(GPO)
 
 Allows you to automatically transfer or balance fuel.
 
@@ -21,7 +21,7 @@ Allows you to automatically transfer or balance fuel.
 
 ## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
-<img src="https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:25%;" />
+<img src="https://github.com/zer0Kerbal/GPOSpeedPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:25%;" />
 
 ## Description
 
@@ -65,17 +65,11 @@ The fourth pic shows the "Pump Options" window that allows you to turn off the p
 
 ---
 
-### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
-
-[![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
-
----
-
 ### See More
 
 * Discussions and news on this mod: See [Discussions][MOD:discu] or [KSP Forums][MOD:forum]
 * Changelog Summary for more details of changes : See [ChangeLog][MOD:chlog]
-* Known Issues for more details of feature requests and known issues : See [Known Issues][MOD:known]
+* Known Issues for more details of feature requests and known issues : See [Known Issues][MOD:issue]
 * GitHub Pages : See [Pages][MOD:pages]
 
 ---
@@ -146,7 +140,7 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 #### Previous (2) - Author: [`hab136`][hab136]
 
 > Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:download] - Source: [GitHub][MOD:2:source]  
-> [SpaceDock](http://spacedock.info/mod/546/GPOSpeedFuelPump)
+> [SpaceDock](http://spacedock.info/mod/546/GPOSpeedPump)
 > License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
 
 #### Previous (1) - Author: [`Geordiepigeonowner`][geordiepigeonowner]
@@ -177,25 +171,20 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
 
 Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 <!-- mod links -->
-[MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/Attribution.md "Attribution"
-[MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/changelog.md  "Changelog"
-[MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
-[MOD:discu]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPOSpeedFuelPump Forum Thread"
-[MOD:issue]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/wiki/Known-Issues "GitHub Issues"
-[MOD:known]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/wiki/Known-Issues "Known Issues"
-[MOD:licns]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/LICENSE "Github License"
-[MOD:local]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/blob/master/GameData/GPOSpeedFuelPump/Localization/readme.md "Localization"
-[MOD:pages]: https://zer0kerbal.github.io/GPOSpeedFuelPump/ "GitHub Pages"
-[MOD:notic]: https://zer0kerbal.github.io/GPOSpeedFuelPump/Notices "Notices"
-[MOD:wiki]: https://zer0kerbal.github.io/GPOSpeedFuelPump/ "Wiki"
+[MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Attribution.md "Attribution"
+
+[MOD:chlog]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md  "Changelog"
+[MOD:discu]: https://github.com/net-lisias-ksp/GPOSpeedPump/discussions "Discussions"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPOSpeedPump Forum Thread"
+[MOD:issue]: https://github.com/net-lisias-ksp/GPOSpeedPump/issues "GitHub Issues"
+[MOD:licns]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/LICENSE "Github License"
+[MOD:local]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/GameData/GPOSpeedPump/Localization/readme.md "Localization"
+[MOD:pages]: https://net-lisias-ksp.github.io/GPOSpeedPump/ "GitHub Pages"
+[MOD:notic]: https://net-lisias-ksp.github.io/GPOSpeedPump/Notices "Notices"
 
 <!--- mod -->
-[MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/mod.json
-
-[CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/code.json
-
-[MOD:pages:shd]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/actions/workflows/pages/pages-build-deployment/badge.svg "GitHub IO"
+[MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json
+[CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/code.json
 
 <!--- mod provenance -->
 [MOD:0:source]: https://archive.org/details/Goodspeed-0.90 "Wayback Machine"
@@ -204,11 +193,11 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 
 [MOD:1:source]: https://archive.org/details/Goodspeed-v1.8.16 "Wayback Machine"
 [MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/ "KSP Forum"
-[MOD:1:download]: https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedFuelPump "KerbalStuff"
+[MOD:1:download]: https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedPump "KerbalStuff"
 
 [MOD:2:source]: https://github.com/henrybauer/GPOSpeedPump "GitHub"
 [MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
-[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued "CurseForge"
+[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump-continued "CurseForge"
 
 <!--- license provenance-->
 [LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
@@ -225,17 +214,12 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 
 [LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
 [LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/license.json "GPLv3"
-
-<!--- AVC -->
-[AVC:shd]: https://img.shields.io/badge/KSP-AVC--supported-00C961.svg?labelColor=black&style=plastic
-[AVCVLD:shd]: https://github.com/zer0Kerbal/GPOSpeedFuelPump/workflows/Validate%20AVC%20.version%20files/badge.svg?labelColor=black&style=plastic "AVC-Valid - thank you to DasSkelett"
+[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json "GPLv3"
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
 [CKAN:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/ "CKAN"
-<!-- [CKAN:shd]: https://img.shields.io/badge/CKAN-GPOSpeedFuelPump-white.svg?labelColor=E32811&style=plastic "CKAN" -->
-[CKAN:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/ckan.json "CKAN"
+[CKAN:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ckan.json "CKAN"
 
 <!--- release links -->
 [CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedFuelPump "Curseforge"
@@ -249,7 +233,7 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 
 <!-- Kerbal Space Program -->
 [KSP:url]: https://kerbalspaceprogram.com/ "Kerbal Space Program"
-[KSP:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedFuelPump/master/json/ksp.json&logo=data:image/webp;base64,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 "Kerbal Space Program"
+[KSP:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ksp.json&logo=data:image/webp;base64,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 "Kerbal Space Program"
 
 <!-- links to add-ons/mods -->  
 
@@ -274,17 +258,6 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [SCON]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/ "SimpleConstruction! (SCON!"
 [TGS]: https://forum.kerbalspaceprogram.com/index.php?/topic/203990-*/ "The Gold Standard! (TGS)"
 
-<!-- financial support -->
-[PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00 "PayPal"
-[PAYPAL:url]: https://www.paypal.com/donate?hosted_button_id=DC22YHMEJREKL "PayPal"
-[PATREON:img]: https://img.shields.io/badge/Patreon%20-Patreonize-FF424D?style=for-the-badge&logo=patreon "Patreon"
-[PATREON:url]: https://www.patreon.com/bePatron?u=23390503 "Patreon"
-[GSPONS:img]: https://img.shields.io/badge/Github%20-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors "Github Sponsors"
-[GSPONS:url]: https://github.com/sponsors/zer0Kerbal "Github Sponsors"
-[BMCC:img]: https://img.shields.io/badge/Buy%20Me%20a%20-Snack!-FFDD00?style=for-the-badge&logo=buymeacoffee "Buy Me A Snack"
-[BMCC:url]: https://buymeacoffee.com/zer0Kerbal "Buy Me A Snack"
-
-<!-- Localization -->
 [EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/American-flag-sm.png "English"
 [BR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Brazilian-flag-sm.png "Brasil"
 [CN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Chinese-flag-sm.png "中文"
@@ -307,9 +280,3 @@ Please note the copyrights and trademarks in [NOTICE](MOD:notic).
 [hab136]: https://forum.kerbalspaceprogram.com/index.php?/profile/75997-*/ "hab136"
 [lisias]: https://forum.kerbalspaceprogram.com/index.php?/profile/187168-*/ "Lisias"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
-
-<!-- footnotes -->
-[^1]: this isn't a mod. ;P
-[^2]: ***may*** work on other versions (YMMV)
-[^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
-
