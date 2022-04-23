@@ -2,6 +2,10 @@
 
 Allows you to automatically transfer or balance fuel.
 
+New in the neighbourhood? Check out the [![Github Pages](https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "Github Pages")](https://net-lisias-ksp.github.io/GPOSpeedPump/)!!
+
+Brought to you by [`Lisias`](https://forum.kerbalspaceprogram.com/index.php?/profile/187168-lisias/) and [`zer0Kerbal`](https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/), previously by [`hab136`](https://forum.kerbalspaceprogram.com/index.php?/profile/75997-hab136/), then previously by [`Geordiepigeonowner`](https://forum.kerbalspaceprogram.com/index.php?/profile/116764-geordiepigeonowner/), and originally by [`Gaius`](https://forum.kerbalspaceprogram.com/index.php?/profile/66495-gaius/).
+
 
 ## In a Hurry
 
@@ -9,6 +13,7 @@ Allows you to automatically transfer or balance fuel.
 	+ [Binaries](https://github.com/net-lisias-ksp/GPOSpeedPump/tree/Archive)
 	+ [Source](https://github.com/net-lisias-ksp/GPOSpeedPump)
 * Documentation
+	+ [Github Pages](https://net-lisias-ksp.github.io/GPOSpeedPump/) 
 	+ [Project's README](https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/README.md)
 	+ [Install Instructions](https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
@@ -23,6 +28,8 @@ Allows you to automatically transfer or balance fuel.
 
 
 ## Description
+
+<img src="./PR_material/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
 
 Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then **Goo Pumps & Oils** has the tool for you!
 
