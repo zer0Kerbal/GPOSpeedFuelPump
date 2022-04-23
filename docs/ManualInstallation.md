@@ -34,6 +34,7 @@ To install, place the GPOSpeedFuelPump folder inside your Kerbal Space Program's
 * Extract the package's `GPOSpeedFuelPump/` folder into your KSP's GameData folder as follows:
   * `<PACKAGE>/GPOSpeedFuelPump` --> `<KSP_ROOT>/GameData/GPOSpeedFuelPump`
     * Overwrite any preexisting folder/file(s).
+  * you should end up with `<KSP_ROOT>/GameData/GPOSpeedFuelPump`
 
 ### If Downloaded from SpaceDock / GitHub / other
 
@@ -44,6 +45,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 * Extract the package's `GameData/GPOSpeedFuelPump` folder into your KSP's root folder as follows:
   * `<PACKAGE>/GameData/GPOSpeedFuelPump` --> `<KSP_ROOT>/GameData`
     * Overwrite any preexisting file.
+  * you should end up with `<KSP_ROOT>/GameData/GPOSpeedFuelPump`
 
 ## The following file layout must be present after installation
 
