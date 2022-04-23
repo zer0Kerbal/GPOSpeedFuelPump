@@ -3,7 +3,7 @@ GPOSpeedPump (GPO)
 created: 01 Oct 2019
 updated: 04 Apr 2022 -->
 
-<!--this file: CC BY-ND 4.0 unported by zer0Kerbal -->
+<!--this file: used with explicit permission from zer0Kerbal -->
 
 [![GPOSpeedPump (GPO)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![CKAN][CKAN:shd]][CKAN:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url]  
@@ -172,7 +172,6 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
 Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Attribution.md "Attribution"
-[MOD:notice]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Notices.md "Notices"
 
 [MOD:chlog]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md  "Changelog"
 [MOD:discu]: https://github.com/net-lisias-ksp/GPOSpeedPump/discussions "Discussions"
@@ -181,7 +180,7 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [MOD:licns]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/LICENSE "Github License"
 [MOD:local]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/GameData/GPOSpeedPump/Localization/readme.md "Localization"
 [MOD:pages]: https://net-lisias-ksp.github.io/GPOSpeedPump/ "GitHub Pages"
-[MOD:notic]: https://net-lisias-ksp.github.io/GPOSpeedPump/Notices "Notices"
+[MOD:notice]: https://net-lisias-ksp.github.io/GPOSpeedPump/Notices "Notices"
 
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json
