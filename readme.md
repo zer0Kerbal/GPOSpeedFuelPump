@@ -171,7 +171,7 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
 Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Attribution.md "Attribution"
-MOD:notice]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Notices.md "Attribution"
+[MOD:notice]: https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/Notices.md "Notices"
 
 [MOD:chlog]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md  "Changelog"
 [MOD:discu]: https://github.com/net-lisias-ksp/GPOSpeedPump/discussions "Discussions"
