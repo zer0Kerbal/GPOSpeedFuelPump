@@ -6,7 +6,7 @@ updated: 04 Apr 2022 -->
 <!--this file: used with explicit permission from zer0Kerbal -->
 
 [![GPOSpeedPump (GPO)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![CKAN][CKAN:shd]][CKAN:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url]  
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][CKAN:url]  
 ![Code][CODE:shd]
 
 [![GitHub Pages][MOD:pages:shd]][MOD:pages]
