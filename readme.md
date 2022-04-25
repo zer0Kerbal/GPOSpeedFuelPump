@@ -198,8 +198,8 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [MOD:1:download]: https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedPump "KerbalStuff"
 
 [MOD:2:source]: https://github.com/henrybauer/GPOSpeedPump "GitHub"
-[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
-[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump-continued "CurseForge"
+[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/137489-*/ "KSP Forum"
+[MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump "CurseForge"
 
 <!--- license provenance-->
 [LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
