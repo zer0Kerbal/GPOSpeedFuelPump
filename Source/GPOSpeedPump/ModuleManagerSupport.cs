@@ -19,7 +19,7 @@ using System.Collections.Generic;
 
 namespace GPOSpeedPump
 {
-	public static class ModuleManagerSupport
+	public class ModuleManagerSupport : UnityEngine.MonoBehaviour
 	{
 		public static IEnumerable<string> ModuleManagerAddToModList()
 		{
