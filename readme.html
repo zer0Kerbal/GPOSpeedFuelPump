@@ -1,0 +1,609 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>readme</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><!-- readme.md v1.6.6.2
+GPOSpeedPump (GPO)
+created: 01 Oct 2019
+updated: 04 Apr 2022 --><!--this file: used with explicit permission from zer0Kerbal --><p><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/' target='_blank' title='GPOSpeedPump Forum Thread'><span class='md-image'><img alt='GPOSpeedPump (GPO)' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json' referrerPolicy='no-referrer'></img></span></a><span> </span><a href='https://kerbalspaceprogram.com/' target='_blank' title='Kerbal Space Program'><span class='md-image'><img alt='KSP version' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ksp.json&amp;logo=data:image/webp;base64,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' title='Kerbal Space Program' referrerPolicy='no-referrer'></img></span></a><span>  </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span></span><br/><a href='https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump' target='_blank' title='Curseforge'><span class='md-image'><img alt='Curseforge' src='https://img.shields.io/badge/CurseForge-Link-CCFF00.svg?labelColor=6441A4&amp;style=plastic&amp;logo=curseforge' title='Curseforge' referrerPolicy='no-referrer'></img></span></a><span> </span><a href='https://net-lisias-ksp.github.io/GPOSpeedPump/' target='_blank' title='Readme'><span class='md-image'><img alt='GitHub Pages' src='https://img.shields.io/badge/GitHub-Readme-white?style=plastic&amp;labelColor=9cf&amp;logoColor=181717&amp;logo=github' title='Github Pages' referrerPolicy='no-referrer'></img></span></a><span> </span><a href='http://spacedock.info/mod/546' target='_blank' title='SpaceDock'><span class='md-image'><img alt='SpaceDock' src='https://img.shields.io/badge/SpaceDock-Link-CCFF00.svg?labelColor=181717&amp;style=plastic&amp;logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDAgNTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFBMUExQTt9Cgkuc3Qxe2ZpbGw6IzA1Nzg5Mzt9Cgkuc3Qye2ZpbGw6IzA3QUNEMjt9Cjwvc3R5bGU+CjxwYXRoIGlkPSJYTUxJRF8xXyIgY2xhc3M9InN0MCIgZD0iTTQwMCwwLjZIMTAwYy01NSwwLTEwMCw0NS0xMDAsMTAwVjQwMGMwLDU1LDQ1LDEwMCwxMDAsMTAwaDMwMGM1NSwwLDEwMC00NSwxMDAtMTAwVjEwMC42CglDNTAwLDQ1LjYsNDU1LDAuNiw0MDAsMC42eiIvPgo8ZyBpZD0iWE1MSURfNl8iPgoJPGcgaWQ9IlhNTElEXzlfIj4KCQk8cGF0aCBpZD0iWE1MSURfMTdfIiBjbGFzcz0ic3QxIiBkPSJNMTgzLjMsMTY1LjljNi40LTMuNiwxNi45LTMuNiwyMy4zLDBMNDY3LjQsMzE0YzYuNCwzLjYsNi40LDkuNiwwLDEzLjJMMjA2LjYsNDc0LjQKCQkJYy02LjQsMy42LTE3LjcsNi42LTI1LDYuNmgtNDQuOGMtNy40LDAtOC4xLTMtMS43LTYuNmwyNjEtMTQ3LjJjNi40LTMuNiw2LjQtOS42LDAtMTMuMkwxNzEsMTg2Yy02LjQtMy42LTYuNC05LjYsMC0xMy4yCgkJCUwxODMuMywxNjUuOXoiLz4KCTwvZz4KCTxnIGlkPSJYTUxJRF84XyI+CgkJPHBhdGggaWQ9IlhNTElEXzE2XyIgY2xhc3M9InN0MiIgZD0iTTMxOC44LDE5Yy03LjQsMC0xOC42LDIuOC0yNSw2LjRMMzMsMTczLjRjLTYuNCwzLjYtNi40LDkuNSwwLDEzLjFsMjYwLjcsMTQ3LjEKCQkJYzYuNCwzLjYsMTYuOSwzLjYsMjMuMywwbDEyLjMtN2M2LjQtMy42LDYuNC05LjUsMC0xMy4ybC0yMjUuMS0xMjdjLTYuNC0zLjYtNi40LTkuNSwwLTEzLjJMMzY1LjYsMjUuNGM2LjQtMy42LDUuNi02LjQtMS43LTYuNAoJCQlIMzE4Ljh6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==' title='SpaceDock' referrerPolicy='no-referrer'></img></span></a><span> </span><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/' target='_blank' title='CKAN'><span class='md-image'><img alt='CKAN' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ckan.json' title='CKAN' referrerPolicy='no-referrer'></img></span></a><span></span><br/><span class='md-image'><img alt='Code' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/code.json' referrerPolicy='no-referrer'></img></span></p><h1 id='goo-pumps--oils-speed-pumpgpo'><span>Goo Pumps &amp; Oils&#39; Speed Pump(GPO)</span></h1><p><span>Allows you to automatically transfer or balance fuel.</span></p><p>&nbsp;</p><h2 id='by-lisias-and-zer0kerbal-previously-by-hab136-then-previously-by-geordiepigeonowner-and-originally-by-gaius'><span>By </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/187168-*/' target='_blank' title='Lisias'><code>Lisias</code></a><span> and </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/' target='_blank' title='zer0Kerbal'><code>zer0Kerbal</code></a><span>, previously by </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/75997-*/' target='_blank' title='hab136'><code>hab136</code></a><span>, then previously by </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/' target='_blank' title='Geordiepigeonowner'><code>Geordiepigeonowner</code></a><span>, and originally by </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/' target='_blank' title='Gaius'><code>Gaius</code></a><span>  </span></h2><p><img src="https://github.com/zer0Kerbal/GPOSpeedPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:25%;" /></p><h2 id='description'><span>Description</span></h2><p><span>Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it&#39;s needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a &quot;tweakable&quot; and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then </span><strong><span>Goo Pumps &amp; Oils</span></strong><span> has the tool for you!</span></p><p><span>The </span><strong><span>Goo Pumps &amp; Oils&#39;</span></strong><span> </span><em><span>Speed Pump</span></em><span>, once installed in your fuel tanks, allows you to set up a &quot;pump level&quot; for each tank, either as a &quot;tweakable&quot; while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don&#39;t normally flow that way (e.g. monopropellant and xenon gas), and many other uses!</span></p><p><span>Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on &quot;Auto Pump&quot; and/or &quot;Balance&quot;. &quot;Auto Pump&quot; will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The &quot;Balance&quot; function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and &quot;Balance&quot; on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.</span></p><h3 id='pictures-or-it-didnt-happened'><span>Pictures, or it didn&#39;t happened!</span></h3><p><span>The first pic shows a fuel station that automatically refuels any ship that docks with it. In this setup, the top two tanks remain left/right balanced while draining first, then the next two down, and so on, with the two on the bottom draining last. Why would you want to do this? Because... reasons.</span></p><p>![<span>HERO-01</span>][]<span>(</span><a href='https://i.imgur.com/2pChN3Q.png' target='_blank' class='url'>https://i.imgur.com/2pChN3Q.png</a><span>)</span></p><p><span>The second pic just shows that the pump settings appear in the assembly building as &quot;tweakables&quot; as well as in-flight. These settings are saved with your craft.</span></p><p><img src="https://i.imgur.com/JnfmO7C.png" referrerpolicy="no-referrer" alt="HERO-01"></p><p><span>The third pic just shows the pumps keeping three tanks balanced in-flight.</span></p><p><img src="https://i.imgur.com/Bxmxd6d.png" referrerpolicy="no-referrer" alt="HERO-01"></p><p><span>The fourth pic shows the &quot;Pump Options&quot; window that allows you to turn off the pumping of some resources while leaving it enabled for others.</span></p><p><img src="https://i.imgur.com/G1kAfqy.png" referrerpolicy="no-referrer" alt="HERO-01"></p><h3 id='help-wanted'><span>Help Wanted</span></h3><blockquote><ul><li><span>Compatibility patches are always welcome  </span></li><li><span>Have a request? Glad to have them, kindly submit through </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/issues' target='_blank' title='GitHub Issues'><span>GitHub</span></a><span>.</span></li></ul></blockquote><hr /><h3 id='localization'><span>Localization</span></h3><blockquote><ul><li><span class='md-image'><img alt='English' src='https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/American-flag-sm.png' title='English' referrerPolicy='no-referrer'></img></span><span> English</span></li><li><em><strong><span>your translation here</span></strong></em></li></ul><p><span>HELP WANTED - See the </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/GameData/GPOSpeedPump/Localization/readme.md' target='_blank' title='Localization'><span>README in the Localization folder</span></a><span> for instructions for adding or improving translations. </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/' target='_blank' title='GitHub'><span>GitHub</span></a><span> push is the best way to contribute. </span><em><span>Additions and corrections welcome!</span></em></p></blockquote><hr /><h3 id='see-more'><span>See More</span></h3><ul><li><span>Discussions and news on this mod: See </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/discussions' target='_blank' title='Discussions'><span>Discussions</span></a><span> or </span><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/' target='_blank' title='GPOSpeedPump Forum Thread'><span>KSP Forums</span></a></li><li><span>Changelog Summary for more details of changes : See </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md' target='_blank' title='Changelog'><span>ChangeLog</span></a></li><li><span>Known Issues for more details of feature requests and known issues : See </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/issues' target='_blank' title='GitHub Issues'><span>Known Issues</span></a></li><li><span>GitHub Pages : See </span><a href='https://net-lisias-ksp.github.io/GPOSpeedPump/' target='_blank' title='Readme'><span>Pages</span></a></li></ul><hr /><h3 id='installation-directions'><span>Installation Directions</span></h3><p><em><strong><span>Use</span></strong></em>
+<span>  CurseForge/OverWolf App (currently does not install dependencies)</span></p><p><span>  </span><a href="https://download.curseforge.com/">
+<span>    </span><img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
+</a></p><p><span>or </span><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/' target='_blank' title='CKAN'><span class='md-image'><img alt='CKAN' src='https://i.postimg.cc/x8XSVg4R/sj507JC.png' title='CKAN' referrerPolicy='no-referrer'></img></span></a></p><h3 id='dependencies'><span>Dependencies</span></h3><ul><li><p><a href='https://kerbalspaceprogram.com/' target='_blank' title='Kerbal Space Program'><span>Kerbal Space Program</span></a><span> </span><a href='https://kerbalspaceprogram.com/' target='_blank' title='Kerbal Space Program'><span class='md-image'><img alt='Kerbal Space Program' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ksp.json&amp;logo=data:image/webp;base64,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' title='Kerbal Space Program' referrerPolicy='no-referrer'></img></span></a></p></li><li><p><span>either</span></p><ul><li><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/' target='_blank' title='Module Manager'><span>Module Manager</span></a></li></ul></li><li><p><span>or  </span></p><ul><li><a href='https://github.com/net-lisias-ksp/ModuleManager' target='_blank' title='Module Manager /L'><span>Module Manager /L</span></a></li><li><span>with </span><a href='https://github.com/net-lisias-ksp/KSPAPIExtensions' target='_blank' title='KSPAPIExtensions'><span>KSPAPIExtensions</span></a></li></ul></li></ul><h3 id='supports'><span>Supports</span></h3><ul><li><a href='http://umbraspaceindustries.github.io/UmbraSpaceIndustries/' target='_blank' title='Community Resource Pack'><span>Community Resource Pack</span></a></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/96402-*/' target='_blank' title='Procedural Parts'><span>Procedural Parts</span></a></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/' target='_blank' title='SimpleConstruction! (SCON!'><span>SimpleConstruction! (SCON!)</span></a></li><li><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/50145-*/' target='_blank' title='Station Science'><span>Station Science</span></a></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/203990-*/' target='_blank' title='The Gold Standard! (TGS)'><span>The Gold Standard! (TGS)</span></a><span>]</span></li></ul><h4 id='fuel-switchers'><span>Fuel Switchers</span></h4><p><em><span>alphabetically</span></em></p><ul><li><a href='http://forum.kerbalspaceprogram.com/index.php?showtopic=140541' target='_blank' title='B9PartSwitch'><span>B9PartSwitch</span></a></li><li><a href='https://github.com/snjo/Firespitter' target='_blank' title='Firespitter'><span>Firespitter</span></a></li><li><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/106243-*/' target='_blank' title='Interstellar Fuel Switch'><span>Interstellar Fuel Switch</span></a></li><li><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/106243-*/' target='_blank' title='Interstellar Fuel Switch Core'><span>Interstellar Fuel Switch Core</span></a></li><li><a href='http://forum.kerbalspaceprogram.com/index.php?/topic/58235-*/' target='_blank' title='Modular Fuel Tanks'><span>Modular Fuel Tanks</span></a></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/181274-*/' target='_blank' title='SimpleFuelSwitch'><span>SimpleFuelSwitch</span></a></li></ul><div style="border:0.5px solid #BADA55; background-color: #white; color: #FF0000; text-align:center">
+<p><b>*red box below is a link to forum post on how to get support*</b></p><b>  
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
+  <p><img src="https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a><small style="color: #BADA55"><i>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</i></small></b></div><h3 id='credits-and-special-thanks'><span>Credits and Special Thanks</span></h3><ul><li><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/' target='_blank' title='Gaius'><span>Gaius</span></a><span> for creating this glorious mod!</span></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/' target='_blank' title='Geordiepigeonowner'><span>Geordiepigeonowner</span></a><span> for maintaining this mod after Gaius was kidnapped by Space Worms</span></li><li><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/75997-*/' target='_blank' title='hab136'><span>hab136</span></a><span> for taking over after Geordiepigeonowner, who was also kidnapped by Space Worms</span></li><li><span>see </span><a href='https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/gh-pages/Attribution.md' target='_blank' title='Attribution'><span>Attribution.md</span></a><span> for more comprehensive list</span></li></ul><h3 id='legal-mumbo-jumbo-license-provenance'><span>Legal Mumbo Jumbo (License </span><em><span>provenance</span></em><span>)</span></h3><h4 id='current-1---lisias-and-zer0kerbal'><span>Current (1) - </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/187168-*/' target='_blank' title='Lisias'><code>Lisias</code></a><span> and </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/' target='_blank' title='zer0Kerbal'><code>zer0Kerbal</code></a></h4><blockquote><p><span>Forum: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/' target='_blank' title='GPOSpeedPump Forum Thread'><span>Thread</span></a><span> - Source: </span><a href='https://github.com/net-lisias-ksp/GPOSpeedPump/' target='_blank' title='GitHub'><span>GitHub</span></a><span></span><br/><span>License: </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span> </span><span class='md-image'><img alt='License' src='https://i.postimg.cc/9FrwMgK6/GPL-17x17.png' title='GPLv3' referrerPolicy='no-referrer'></img></span></p><h5 id='disclaimers'><span>Disclaimer(s)</span></h5><p><em><strong><span>All bundled mods are distributed under their own licenses</span></strong></em><span></span><br/><em><strong><span>All art assets (textures, models, animations, sounds) are distributed under their own licenses</span></strong></em></p></blockquote><h4 id='previous-2---author-hab136'><span>Previous (2) - Author: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/75997-*/' target='_blank' title='hab136'><code>hab136</code></a></h4><blockquote><p><span>Forum: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/137489-*/' target='_blank' title='KSP Forum'><span>Thread</span></a><span> - Download: </span><a href='https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump' target='_blank' title='CurseForge'><span>CurseForge</span></a><span> - Source: </span><a href='https://github.com/henrybauer/GPOSpeedPump' target='_blank' title='GitHub'><span>GitHub</span></a><span></span><br/><a href='http://spacedock.info/mod/546/GPOSpeedPump'><span>SpaceDock</span></a>
+<span>License: </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&amp;labelColor=white&amp;logoColor=A42E2B&amp;logo=gnu' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span> </span><span class='md-image'><img alt='License' src='https://i.postimg.cc/9FrwMgK6/GPL-17x17.png' title='GPLv3' referrerPolicy='no-referrer'></img></span></p></blockquote><h4 id='previous-1---author-geordiepigeonowner'><span>Previous (1) - Author: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/' target='_blank' title='Geordiepigeonowner'><code>Geordiepigeonowner</code></a></h4><blockquote><p><span>Forum: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/106448-*/' target='_blank' title='KSP Forum'><span>Thread</span></a><span> - Download: </span><a href='https://web.archive.org/web/20151129192243/https://kerbalstuff.com/mod/722/GPOSpeedPump' target='_blank' title='KerbalStuff'><span>KerbalStuff</span></a><span> - Source: </span><a href='https://archive.org/details/Goodspeed-v1.8.16' target='_blank' title='Wayback Machine'><span>Wayback Machine</span></a><span></span><br/><span>License: </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&amp;labelColor=white&amp;logoColor=A42E2B&amp;logo=gnu' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span> </span><span class='md-image'><img alt='License' src='https://i.postimg.cc/9FrwMgK6/GPL-17x17.png' title='GPLv3' referrerPolicy='no-referrer'></img></span></p></blockquote><h4 id='original-root-0---author-gaius'><span>Original (ROOT) (0) - Author: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/' target='_blank' title='Gaius'><code>Gaius</code></a></h4><blockquote><p><span>Forum: </span><a href='https://forum.kerbalspaceprogram.com/index.php?/topic/60992-*/' target='_blank' title='KSP Forum'><span>Thread</span></a><span> - Download: </span><a href='https://archive.org/details/Goodspeed-0.90' target='_blank' title='Wayback Machine'><span>Dropbox</span></a><span> - Source: </span><a href='https://archive.org/details/Goodspeed-0.90' target='_blank' title='Wayback Machine'><span>Dropbox</span></a><span></span><br/><span>License: </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&amp;labelColor=white&amp;logoColor=A42E2B&amp;logo=gnu' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span> </span><span class='md-image'><img alt='License' src='https://i.postimg.cc/9FrwMgK6/GPL-17x17.png' title='GPLv3' referrerPolicy='no-referrer'></img></span><span></span><br/><a href='https://imgur.com/a/ilLes'><span>Imgur</span></a></p></blockquote><p><span>This work is licensed under the </span><a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html' target='_blank' title='GPLv3'><span class='md-image'><img alt='License' src='https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json' title='GPLv3' referrerPolicy='no-referrer'></img></span></a><span> </span><span class='md-image'><img alt='License' src='https://i.postimg.cc/9FrwMgK6/GPL-17x17.png' title='GPLv3' referrerPolicy='no-referrer'></img></span><span>.</span></p><ul><li><p><span>You are free to:</span></p><ul><li><span>Use : unpack and use the material in any computer or device</span></li><li><span>Redistribute : redistribute the original package in any medium</span></li><li><span>Adapt : Reuse, modify or incorporate source code into your works (and redistribute it!)</span></li></ul></li><li><p><span>Under the following terms:</span></p><ul><li><p><span>You retain any copyright notices</span></p></li><li><p><span>You recognise and respect any trademarks</span></p></li><li><p><span>You don&#39;t impersonate the authors, neither redistribute a derivative that could be misrepresented as theirs.</span></p></li><li><p><span>You credit the author and republish the copyright notices on your works where the code is used.</span></p></li><li><p><span>You relicense (and fully comply) your works using GPL 3.0</span></p><ul><li><span>Please note that upgrading the license to any future license version  </span><strong><span>IS NOT ALLOWED</span></strong><span> for this work, as the author </span><strong><span>DID NOT</span></strong><span> add the &quot;or (at your option) any later version&quot; on the license</span></li></ul></li><li><p><span>You don&#39;t mix your work with GPL incompatible works.</span></p></li></ul></li></ul><p><span>Please note the copyrights and trademarks in </span><a href='https://net-lisias-ksp.github.io/GPOSpeedPump/Notices' target='_blank' title='Notices'><span>NOTICE</span></a><span>.</span>
+<!-- mod links --></p><!--- mod --><!--- mod provenance --><!--- license provenance--><!--- CKAN --><!--- release links --><!-- Kerbal Space Program --><p><!-- links to add-ons/mods --><span>  </span></p></div></div>
+</body>
+</html>
