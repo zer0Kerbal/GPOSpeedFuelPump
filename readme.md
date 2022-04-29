@@ -10,7 +10,7 @@ updated: 04 Apr 2022 -->
 ![Code][CODE:shd]
 
 
-# Goo Pumps & Oils' Speed Pump(GPO)
+# Goo Pumps & Oils' Speed Pump (GPO)
 
 Allows you to automatically transfer or balance fuel.
 
