@@ -142,3 +142,13 @@ Thumbs.db
 *.tmp
 *.temp
 *.old
+publish.sh
+pack.sh
+pack-full.sh
+pack-curse.sh
+INSTALL.md
+deploy.sh
+deploy-and-run.sh
+CONFIG.inc
+clean.sh
+check.sh
