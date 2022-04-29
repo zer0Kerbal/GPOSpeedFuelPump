@@ -222,10 +222,10 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [CKAN:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/ckan.json "CKAN"
 
 <!--- release links -->
-[CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedFuelPump "Curseforge"
+[CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump "Curseforge"
 [CURSFG:shd]: https://img.shields.io/badge/CurseForge-Link-CCFF00.svg?labelColor=6441A4&style=plastic&logo=curseforge "Curseforge"
 
-[GITHUB:url]: https://github.com/net-lisias-ksp/GPOSpeedFuelPump/ "GitHub"
+[GITHUB:url]: https://github.com/net-lisias-ksp/GPOSpeedPump/ "GitHub"
 [GITHUB:shd]: https://img.shields.io/badge/Github-Link-CCFF00.svg?labelColor=181717&style=plastic&logo=github "GitHub"
 
 [SPCDCK:url]: http://spacedock.info/mod/546 "SpaceDock"
