@@ -177,14 +177,14 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [MOD:issue]: https://github.com/net-lisias-ksp/GPOSpeedPump/issues "GitHub Issues"
 [MOD:licns]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/LICENSE "Github License"
 [MOD:local]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/GameData/GPOSpeedPump/Localization/readme.md "Localization"
-[MOD:pages]: https://net-lisias-ksp.github.io/GPOSpeedPump/ "GitHub Pages"
+[MOD:pages]: https://net-lisias-ksp.github.io/GPOSpeedPump/ "Readme"
 [MOD:notice]: https://net-lisias-ksp.github.io/GPOSpeedPump/Notices "Notices"
 
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json
 [CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/code.json
 
-[MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "Github Pages"
+[MOD:pages:shd]: https://img.shields.io/badge/GitHub-Readme-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "Github Pages"
 
 <!--- mod provenance -->
 [MOD:0:source]: https://archive.org/details/Goodspeed-0.90 "Wayback Machine"
