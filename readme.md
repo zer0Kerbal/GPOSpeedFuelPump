@@ -1,7 +1,7 @@
-<!-- readme.md v1.6.9.7
+<!-- readme.md v1.6.9.8
 GPOSpeedPump (GPOSP)
 created: 17 Jul 2017
-updated: 04 Sep 2022 -->
+updated: 15 Sep 2022 -->
 
 <!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
@@ -31,9 +31,20 @@ Allows you to automatically transfer or balance fuel.
 >
 > Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on "Auto Pump" and/or "Balance". "Auto Pump" will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The "Balance" function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and "Balance" on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.
 
+---
+
+### See more
+
+>* [GitHub Pages][MOD:pages]
+>* [Marketing Slicks][MOD:markt]
+>* [Discussions][MOD:discu] or [KSP Forums][MOD:forum] for discussions and news
+>* [ChangeLog][MOD:chlog] for more details of changes
+>* [Known Issues][MOD:issue] for more details of feature requests and known issues
+
 ### Help Wanted
 
-> * Compatibility patches are always welcome  
+> * Compatibility patches
+> * Marketing Images and Videos such as hero shots, animated gifs, short highlights
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
 
 ---
@@ -41,18 +52,10 @@ Allows you to automatically transfer or balance fuel.
 ### Localization
 
 >* ![English][EN] English
+>* ![Português Brasil][BR] Brazilian Portuguese (Português Brasil)
 >* ***your translation here***
 >
-> HELP WANTED - See the [README in the Localization folder][MOD:local] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
-
----
-
-### See More
-
-* Discussions and news on this mod: See [Discussions][MOD:discu] or [KSP Forums][MOD:forum]
-* Changelog Summary for more details of changes: See [ChangeLog][MOD:chlog]
-* Known Issues for more details of feature requests and known issues : See [Known Issues][MOD:issue]
-* GitHub Pages : See [Pages][MOD:pages]
+> HELP WANTED - See the [README in the Localization folder][lreadme] or the [Quickstart Guide][qstart] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
 
 ---
 
@@ -61,27 +64,24 @@ Allows you to automatically transfer or balance fuel.
 ***Use***
   CurseForge/OverWolf App (currently does not install dependencies)
 
-  <a href="https://download.curseforge.com/">
-    <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
-</a>
+  <a href="https://download.curseforge.com/"><img alt="CurseForge/OverWolf App" img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" width="50%" height="50%"></a>
 
 or [![CKAN][CKAN:img]][CKAN:url]
 
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
-
-* either
-  * [Module Manager][mm]
-* or  
+* [KSP (API) Extensions][kspe]
+* Either
   * [Module Manager /L][mml]
-  * with [KSPAPIExtensions][kspe]
+  * [Module Manager][mm]
 
 ### Supports
 
 * [Community Resource Pack][crp]
 * [Procedural Parts][pt]
-* [SimpleConstruction! (SCON!)][SCON]
+* [SimpleConstruction! (SC)][SC]
+* [SimpleLogistics! (SL)][SL]
 * [Station Science][ss]
 * [The Gold Standard! (TGS)][TGS]]
 
@@ -96,16 +96,18 @@ or [![CKAN][CKAN:img]][CKAN:url]
 * [Modular Fuel Tanks][mft]
 * [SimpleFuelSwitch][sfs]
 
-<div style="border:0.5px solid #BADA55; background-color: #white; color: #FF0000; text-align:center">
-<p><b>*red box below is a link to forum post on how to get support*</p>  
-<a href = "https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
-  <p><img src = "https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a><small style="color: #BADA55"><i>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</i></small></div>
+<div style="border:0.5px solid Tomato; background-color: #BADA55; color: #FF0000; text-align:center">
+  <p><b>red box below is a link to forum post on how to get support</b></p>
+  <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
+    <p><img src="https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a>
+  <p style="color: #000000;">Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</p>
+</div>
 
 ### Credits and Special Thanks
 
 * [Gaius][gaius] for creating this glorious mod!
 * [Geordiepigeonowner][geordiepigeonowner] for maintaining this mod after Gaius was kidnapped by Space Worms
-* [hab136][hab136] for taking over after Geordiepigeonowner, who was also kidnapped by Space Worms
+* [hab136][hab136] for taking over after Geordiepigeonowner, also kidnapped by even larger Space Worms
 * see [Attribution.md][MOD:attr] for more comprehensive list
 
 ### Legal Mumbo Jumbo (License *provenance*)
@@ -120,6 +122,8 @@ or [![CKAN][CKAN:img]][CKAN:url]
 > ***All bundled mods are distributed under their own licenses***  
 > ***All art assets (textures, models, animations, sounds) are distributed under their own licenses***
 
+##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
+
 #### Previous (2) - Author: [`hab136`][hab136]
 
 > Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:download] - Source: [GitHub][MOD:2:source]  
@@ -133,7 +137,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 #### Original (ROOT) (0) - Author: [`Gaius`][gaius]
 
-> Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:download] - Source: [Dropbox][MOD:0:source]  
+> Forum: [Thread][MOD:0:thread] - Download: [Wayback Machine][MOD:0:download] - Source: [Wayback Machine][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]  
 > [Imgur](https://imgur.com/a/ilLes)
 
@@ -153,22 +157,20 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
   * You don't mix your work with GPL incompatible works.
 
 Please note the copyrights and trademarks in [NOTICE][MOD:notice].
+
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/gh-pages/Attribution.md "Attribution"
-
 [MOD:chlog]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/CHANGE_LOG.md  "Changelog"
 [MOD:discu]: https://github.com/net-lisias-ksp/GPOSpeedPump/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPOSpeedPump Forum Thread"
-[MOD:issue]: https://github.com/net-lisias-ksp/GPOSpeedPump/issues "GitHub Issues"
-[MOD:licns]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/LICENSE "Github License"
-[MOD:local]: https://github.com/net-lisias-ksp/GPOSpeedPump/blob/master/GameData/GPOSpeedPump/Localization/readme.md "Localization"
-[MOD:pages]: https://net-lisias-ksp.github.io/GPOSpeedPump/ "Readme"
-[MOD:notice]: https://net-lisias-ksp.github.io/GPOSpeedPump/Notices "Notices"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump"
+[MOD:issue]: https://github.com/net-lisias-ksp/GPOSpeedPump/issues "Issues"
+[MOD:markt]: https://zer0kerbal.github.io/GPOSpeedPump/Marketing "Marketing Slicks"
+[MOD:notic]: https://zer0kerbal.github.io/GPOSpeedPump/Notices "Notices"
+[MOD:pages]: https://zer0kerbal.github.io/GPOSpeedPump "GitHub Pages"
 
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/mod.json
 [CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/code.json
-
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Readme-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "Github Pages"
 
 <!--- mod provenance -->
@@ -185,21 +187,21 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [MOD:2:download]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump "CurseForge"
 
 <!--- license provenance-->
-[LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
-[LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:0:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
+[LIC:0:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
+[LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
+[LIC:0:shd]: https://img.shields.io/badge/License--GPL-3.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-3.0"
 
-[LIC:1:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
-[LIC:1:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:1:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
+[LIC:1:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
+[LIC:1:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
+[LIC:1:shd]: https://img.shields.io/badge/License--GPL-3.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-3.0"
 
-[LIC:2:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
-[LIC:2:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:2:shd]: https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
+[LIC:2:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
+[LIC:2:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
+[LIC:2:shd]: https://img.shields.io/badge/License--GPL-3.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-3.0"
 
-[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"
-[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json "GPLv3"
+[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
+[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
+[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/json/license.json "GPL-3.0"
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
@@ -227,7 +229,6 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [kspe]: https://github.com/net-lisias-ksp/KSPAPIExtensions "KSPAPIExtensions"
 
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
-[ckan]: https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*/ "CKAN"
 
 [b9ps]: http://forum.kerbalspaceprogram.com/index.php?showtopic=140541 "B9PartSwitch"
 [fs]: https://github.com/snjo/Firespitter "Firespitter"
@@ -240,25 +241,31 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [pt]: https://forum.kerbalspaceprogram.com/index.php?/topic/96402-*/ "Procedural Parts"
 [ss]: http://forum.kerbalspaceprogram.com/index.php?/topic/50145-*/ "Station Science"
 
-[SCON]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/ "SimpleConstruction! (SCON!"
+[SC]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/ "SimpleConstruction! (SC)"
+[SL]: https://forum.kerbalspaceprogram.com/index.php?/topic/191045-*/ "SimpleLogistics! (SL)"
 [TGS]: https://forum.kerbalspaceprogram.com/index.php?/topic/203990-*/ "The Gold Standard! (TGS)"
 
-[EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/American-flag-sm.png "English"
-[BR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Brazilian-flag-sm.png "Brasil"
-[CN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Chinese-flag-sm.png "中文"
-[DE]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/German-flag-sm.png "Deutsch"
-[ES]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Spanish-flag-sm.png "Español"
-[FR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/French-flag-sm.png "Français"
-[IT]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Italian-flag-sm.png "Italiano"
-[JA]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Japanese-flag-sm.png "日本語"
-[KO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/South-Korean-flag-sm.png "한국어"
-[ME]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Mexican-flag-sm.png "Español Mexicano"
-[NL]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Dutch-flag-sm.png "Dutch"
-[NO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Norwegian-flag-sm.png "Norsk"
-[PO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Polish-flag-sm.png "Polski"
-[RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Russian-flag-sm.png "Русский"
-[SW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Swedish-flag-sm.png "Svenska"
-[TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Taiwanese-flag-sm.png "国语"
+<!-- Localization -->
+[lreadme]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/readme.md "Localization Readme"
+[qstart]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/quickstart.md "Quickstart"
+[EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png "English"
+[BR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/BR.png "Português Brasil"
+[CN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/CH.png "中文"
+[DE]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/DE.png "Deutsch"
+[ES]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/ES.png "Español"
+[FR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/FR.png "Français"
+[IT]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/IT.png "Italiano"
+[JA]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/JA.png "日本語"
+[KO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/KO.png "한국어"
+[MX]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/MX.png "Mexicano Español"
+[NL]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/NL.png "Dutch"
+[NO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/NO.png "Norsk"
+[PO]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/PO.png "Polski"
+[RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/RU.png "Русский"
+[SW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/SW.png "Svenska"
+[TR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TR.png "Türk"
+[TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TW.png "国语"
+
 
 [gaius]: https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/ "Gaius"
 [geordiepigeonowner]:https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/ "Geordiepigeonowner"
