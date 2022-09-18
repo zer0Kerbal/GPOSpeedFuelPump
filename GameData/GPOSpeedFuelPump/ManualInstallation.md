@@ -7,13 +7,13 @@ tags: installation,directions,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
 
 <!-- ManualInstallation.md v1.1.5.0
-GPOSpeedFuelPump (GPO)
+GPOSpeedFuelPump (GPOSP)
 created: 01 Oct 2019
 updated: 11 Apr 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# GPOSpeedFuelPump (GPO)
+# GPOSpeedFuelPump (GPOSP)
 
 [Home](./index.md)
 
