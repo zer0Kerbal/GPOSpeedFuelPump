@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | GPOSpeedFuelPump (GPO)                                            |
+| modName    | GPOSpeedFuelPump (GPOSP)                                            |
 | ---------- | ----------------------------------------------------------------- |
 | license    | GPLv3                                                             |
 | author     | Gaius, Geordiepigeonowner, hab135, Lisias and zer0Kerbal          |
