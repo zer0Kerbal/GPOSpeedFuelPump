@@ -1,16 +1,19 @@
-<!-- readme.md v1.6.6.2
-GPOSpeedPump (GPO)
-created: 01 Oct 2019
-updated: 04 Apr 2022 -->
+<!-- readme.md v1.6.9.7
+GPOSpeedPump (GPOSP)
+created: 17 Jul 2017
+updated: 04 Sep 2022 -->
+
+<!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
 <!--this file: used with explicit permission from zer0Kerbal -->
 
-[![GPOSpeedPump (GPO)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub Pages][MOD:pages:shd]][MOD:pages] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][CKAN:url]  
+[![GPOSpeedPump (GPOSP)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][ckan:shd]][ckan:url]   
+[![Pages][MOD:pages:shd]][MOD:pages] 
 ![Code][CODE:shd]
 
 
-# Goo Pumps & Oils' Speed Pump (GPO)
+# Goo Pumps & Oils' Speed Pump (GPOSP)
 
 Allows you to automatically transfer or balance fuel.
 
@@ -18,33 +21,15 @@ Allows you to automatically transfer or balance fuel.
 
 ## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
-<img src="https://github.com/zer0Kerbal/GPOSpeedPump/blob/master/img/HeroLogo_1920x1920.png?raw=true" alt="HeroLogo_1920x1920.png" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/img/HeroLogo_1920x1920.png" alt="GPOSpeedPump Hero" width="50%" height="50%">
 
-## Description
-
-Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then **Goo Pumps & Oils** has the tool for you!
-
-The **Goo Pumps & Oils'** *Speed Pump*, once installed in your fuel tanks, allows you to set up a "pump level" for each tank, either as a "tweakable" while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don't normally flow that way (e.g. monopropellant and xenon gas), and many other uses!
-
-Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on "Auto Pump" and/or "Balance". "Auto Pump" will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The "Balance" function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and "Balance" on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.
-
-### Pictures, or it didn't happened!
-
-The first pic shows a fuel station that automatically refuels any ship that docks with it. In this setup, the top two tanks remain left/right balanced while draining first, then the next two down, and so on, with the two on the bottom draining last. Why would you want to do this? Because... reasons.
-
-![HERO-01][](https://i.imgur.com/2pChN3Q.png)
-
-The second pic just shows that the pump settings appear in the assembly building as "tweakables" as well as in-flight. These settings are saved with your craft.
-
-![HERO-01](https://i.imgur.com/JnfmO7C.png)
-
-The third pic just shows the pumps keeping three tanks balanced in-flight.
-
-![HERO-01](https://i.imgur.com/Bxmxd6d.png)
-
-The fourth pic shows the "Pump Options" window that allows you to turn off the pumping of some resources while leaving it enabled for others.
-
-![HERO-01](https://i.imgur.com/G1kAfqy.png)
+## Description by [Gaius][gaius]
+>
+> Ever undock from your space station, only to realize you forgot to top off your fuel or RCS tanks? Want to have tanks that automatically pump fuel where it's needed, without having to bring up windows and manually move fuel around? Want to set up fuel balancing in the SPH or VAB as a "tweakable" and have it saved with your vessel? Simultaneously balance different groups of tanks on the same vessel independently of one-another? Just generally mess around with fuel routing, and have these settings persistent? Then [**Goo Pumps & Oils**][MOD:forum] has the tool for you!
+>
+> The [**Goo Pumps & Oils'** *Speed Pump*][MOD:forum], once installed in your fuel tanks, allows you to set up a "pump level" for each tank, either as a "tweakable" while building your vehicle, or while in flight. You can set tanks to automatically pump fuel to lower level tanks whenever possible, or balance between tanks at the same level. Uses include refuelling tanks at space stations that automatically top off the tanks of any vessels as soon as they dock with the station, refuelling vessels with higher level pumps that automatically refuel the space station as soon as they dock, setting up fuel balancing while building a plane and having it saved with the plane and done completely automatically in flight, setting up more complicated fuel flow patterns for asparagus-like situations without fuel lines for fuel types that don't normally flow that way (e.g. monopropellant and xenon gas), and many other uses!
+>
+> Right-click a tank while in the assembly building, or while in flight. Set the pump level as desired, and turn on "Auto Pump" and/or "Balance". "Auto Pump" will automatically pump fuel from this tank to any lower level tanks (water flows downhill) when they have room. The "Balance" function will keep the percentage of fuel in this tank identical to any other tanks with the same pump level and "Balance" on. Note that this allows different sets of tanks to be balanced within their own set but independently of the other sets.
 
 ### Help Wanted
 
