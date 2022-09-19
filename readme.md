@@ -156,7 +156,7 @@ This work is licensed under the [![License][LIC:shd]][LIC:url] ![License][LIC:lo
     * Please note that upgrading the license to any future license version  **IS NOT ALLOWED** for this work, as the author **DID NOT** add the "or (at your option) any later version" on the license
   * You don't mix your work with GPL incompatible works.
 
-Please note the copyrights and trademarks in [NOTICE][MOD:notice].
+Please note the copyrights and trademarks in [NOTICE][MOD:notic].
 
 <!-- mod links -->
 [MOD:attr]: https://raw.githubusercontent.com/net-lisias-ksp/GPOSpeedPump/gh-pages/Attribution.md "Attribution"
@@ -265,7 +265,6 @@ Please note the copyrights and trademarks in [NOTICE][MOD:notice].
 [SW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/SW.png "Svenska"
 [TR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TR.png "Türk"
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TW.png "国语"
-
 
 [gaius]: https://forum.kerbalspaceprogram.com/index.php?/profile/66495-*/ "Gaius"
 [geordiepigeonowner]:https://forum.kerbalspaceprogram.com/index.php?/profile/116764-*/ "Geordiepigeonowner"
