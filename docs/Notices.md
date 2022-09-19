@@ -2,21 +2,21 @@
 permalink: /Notices.html
 title: Legal Notices
 description: when the revolution comes, .... Legal Mumbo Jumbo (Douglas Adams)
-tags: notices,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
+tags: notice,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
 
 <!--
 Notices.md v1.0.1.0
-GPOSpeedFuelPump (GPOSP)
+Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 13 Apr 2022
-updated: 15 May 2022
+updated:  15 May 2022
 
 based upon work by LisiasT -->
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
 
-# GPOSpeedFuelPump (GPOSP)
+# Goo Pumps & Oils' Speed Pump (GPOSP)
 
 [Home](./index.md)
 
@@ -25,7 +25,7 @@ based upon work by LisiasT -->
 * "Goodspeed Automatic Fuel Pump" is trademark of Gaius Goodspeed
 * "GPOSpeedFuelPump" is trademark of Geordiepigeonowner
 * "GPOSpeedFuelPump continued" is treademark of hab136
-* "Goo Pumps & Oils", "Goo Pumps & Oils' Speed Fuel Pump", "GPOSpeedFuelPump" are trademarks of LisiasT & zer0Kerbal
+* "Goo Pumps & Oils'", "Goo Pumps & Oils' Speed Fuel Pump", "Goo Pumps & Oils' Speed Pump" are trademarks of LisiasT & zer0Kerbal
 * zer0Kerbal is trademark of zer0kerbal
 
 ## Goo Pumps & Oils
@@ -40,8 +40,7 @@ based upon work by LisiasT -->
 
 Other trademarks and registered trademarks are the property of the respective trademark holders.
 
-* © 2022 LisiasT
+* © 2022 LisiasT, zer0Kerbal™
 * © 2016-2019 hab136
 * © 2015 Geordiepigeonowner
 * © 2014 Gaius Goodspeed
-* © 2011-2022 zer0Kerbal™
