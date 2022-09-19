@@ -1,8 +1,8 @@
 {
  "schemaVersion": 1,
- "label": "GPOSpeedPump",
+ "label": "GPO Speed Pump",
  "labelColor": "BADA55",
- "message": "1.9.0.7",
+ "message": "1.9.0.9",
  "color": "darkgreen",
  "style": "plastic"
 }
