@@ -15,7 +15,7 @@ updated: 15 Sep 2022 -->
 
 # Goo Pumps & Oils' Speed Pump (GPOSP)
 
-Allows you to automatically transfer or balance fuel.
+Allows you to simply and automatically transfer or balance resources
 
 
 
