@@ -4,7 +4,6 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
-
 <!-- ManualInstallation.md v1.1.8.1
 Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 01 Oct 2019
@@ -62,7 +61,8 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
       * readme.htm
       * GPOSpeedPump.version
     ...
-    * [Module Manager][mm] or [Module Manager /L][mml]
+    * [Module Manager /L][mml] or [Module Manager][mm]
+    * ModuleManager.ConfigCache
   * KSP.log
   ...
 ```
@@ -71,9 +71,9 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * [KSP (API) Extensions][kspe]
 * *either*
-  * [Module Manager][mm]
   * [Module Manager /L][mml]
+  * [Module Manager][mm]
 
 [kspe]: http://ksp.lisias.net/add-ons/KSPAPIExtensions "KSPAPIExtensions"
-[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
+[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
