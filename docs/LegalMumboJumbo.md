@@ -4,16 +4,16 @@ title: Legal Mumbo Jumbo
 description: when the revolution comes, .... Legal Mumbo Jumbo (Douglas Adams)
 tags: legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
-
 <!--
 LegalMumboJumbo.md v1.0.5.1
 Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 01 Feb 2022
-created: 01 Feb 2022
 updated: 15 May 2022
 -->
 
-<!-- this file used with express permission from zer0Kerbal -->
+<!-- this file:
+      CC BY-ND 4.0 by zer0Kerbal
+      and used with express permission from zer0Kerbal -->
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
@@ -25,51 +25,49 @@ updated: 15 May 2022
 ## Legal Mumbo Jumbo
 
 * Table of Contents
-  * [License](#License)
-  * [Forum Post #1](#Forum-I)
-  * [Forum Post #2](#Forum-II)
-  * [Forum Post #3](#Forum-III)
-  * [Forum Post #4](#Forum-IV)
-  * [Forum Post #5](#Forum-V)
+  * [License](#license)
+  * [Forum Post #1](#forum-i)
+  * [Forum Post #2](#forum-ii)
+  * [Forum Post #3](#forum-iii)
+  * [Forum Post #4](#forum-iv)
+  * [Forum Post #5](#forum-v)
 
 ### License
 
 [License](./LegalMumboJumbo/License.md)
-[top](#Legal-Mumbo-Jumbo)
+[top](#legal-mumbo-jumbo)
 
 ---
 
 ### Forum I
 
 ![Forum](./LegalMumboJumbo/FORUM-01.png)
-[top](#Legal-Mumbo-Jumbo)
+[top](#legal-mumbo-jumbo)
 
 ---
 
 ### Forum II
 
 ![Forum](./LegalMumboJumbo/FORUM-02.png)
-[top](#Legal-Mumbo-Jumbo)
+[top](#legal-mumbo-jumbo)
 
 ---
 
 ### Forum III
 
 ![Forum](./LegalMumboJumbo/FORUM-03.png)
-[top](#Legal-Mumbo-Jumbo)
+[top](#legal-mumbo-jumbo)
 
 ---
 
 ### Forum IV
 
 ![Forum](./LegalMumboJumbo/FORUM-04.png)
-[top](#Legal-Mumbo-Jumbo)
+[top](#legal-mumbo-jumbo)
 
 ---
 
 ### Forum V
 
 ![Forum](./LegalMumboJumbo/FORUM-05.png)
-[top](#Legal-Mumbo-Jumbo)
-
----
+[top](#legal-mumbo-jumbo)
