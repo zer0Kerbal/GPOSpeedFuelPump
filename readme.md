@@ -1,31 +1,32 @@
-<!-- readme.md v1.9.0.23
+<!-- readme.md v1.9.1.0
 GPO Speed Pump (GPOSP)
+created: 01 Jan 2013
+updated: 12 Jun 2023
 
 TEMPLATE: readme.md v1.7.1.0
 created: 17 Jul 2017
 updated: 15 Mar 2023
 
-THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+TEMPLATE: readme.md v1.7.4.0
+created: 17 Jul 2017
+updated: 29 May 2023
 
-<!-- this file:
-    CC BY-ND 4.0 by zer0Kerbal
-    and used with express permission from zer0Kerbal -->
+THIS FILE:
+    CC BY-ND 4.0 by Lisias and zer0Kerbal
+    and used with express permission from [zer0Kerbal](https://github.com/zer0Kerbal) -->
+# [Goo Pumps & Oils' Speed Pump (GPOSP)][CURSFG:url]
 
-[![GPOSpeedPump (GPOSP)][SHD:mod]][forum] [![KSP version][SHD:ksp]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url]
-[![Pages][SHD:pgs]][pages]
+[![GPOSpeedPump (GPOSP)][SHD:mod]][CURSFG:url]  
+[![KSP version][SHD:ksp]][KSP:url] [![License][LIC:shd]][LIC:url]  
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
-![Code][SHD:code]
-
-# Goo Pumps & Oils' Speed Pump (GPOSP)
+![Code][SHD:code] ![MOD-NAME][SHD:dll]
 
 Allows you to simply and automatically transfer or balance resources
 
-
-
 ## By [`Lisias`][lisias] and [`zer0Kerbal`][zer0Kerbal], previously by [`hab136`][hab136], then previously by [`Geordiepigeonowner`][geordiepigeonowner], and originally by [`Gaius`][gaius]  
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/img/HeroLogo_1920x1920.png" alt="GPOSpeedPump Hero" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/GPOSpeedPump/master/img/HeroLogo.png" alt="GPOSpeedPump Hero" width="50%" height="50%">
 
 ## Description by [Gaius][gaius]
 >
