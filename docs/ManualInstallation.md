@@ -23,7 +23,7 @@ this file:
 
 [Home](./index.md)
 
-Allows you to automatically transfer or balance fuel and requires using either [ModularManagement][MM] or [Module Manager][m-m].
+Allows you to automatically transfer or balance fuel and requires using either [ModularManagement][MM] or [Module Manager][omm].
 
 ## Installation Instructions
 
@@ -69,7 +69,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
       * readme.htm
       * GPOSpeedPump.version
     ...
-    * [ModularManagement (MM)][MM] or [Module Manager][m-m]
+    * [ModularManagement (MM)][MM] or [Module Manager][omm]
     * ModuleManager.ConfigCache
   * KSP.log
   ...
@@ -80,8 +80,8 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 * [KSP (API) Extensions][kspe]
 * *either*
   * [ModularManagement][MM]
-  * [Module Manager][m-m]
+  * [Module Manager][omm]
 
 [kspe]: http://ksp.lisias.net/add-ons/KSPAPIExtensions "KSPAPIExtensions"
 [MM]: https://github.com/net-lisias-ksp/ModularManagement "ModularManagement (MM)"
-[m-m]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
+[omm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
